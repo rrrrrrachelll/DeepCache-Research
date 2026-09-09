@@ -1,0 +1,197 @@
+{
+  "model_path": "/home/UserData/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "original_scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "skip_prk_steps": true,
+    "set_alpha_to_one": false,
+    "prediction_type": "epsilon",
+    "timestep_spacing": "leading",
+    "steps_offset": 1,
+    "_use_default_values": [
+      "prediction_type",
+      "timestep_spacing"
+    ],
+    "_class_name": "PNDMScheduler",
+    "_diffusers_version": "0.6.0",
+    "clip_sample": false
+  },
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0"
+  },
+  "gpu": "Tesla M60",
+  "python": "/root/miniconda3/envs/deepcache/bin/python",
+  "git_commit": "97ccf3d2fe85ee8d82ce089c9a977d2981466ed2",
+  "runner_sha256": "6f8cb4e7c58dd337f3b5c03b95f77763c256458f865cb60159f977a64228cb08",
+  "cases": [
+    [
+      "astronaut_42",
+      "a photo of an astronaut on a moon",
+      42
+    ],
+    [
+      "astronaut_43",
+      "a photo of an astronaut on a moon",
+      43
+    ],
+    [
+      "landscape_42",
+      "a photograph of a mountain lake surrounded by pine trees, reflections in clear water, daylight",
+      42
+    ]
+  ],
+  "modes": [
+    [
+      "pndm50",
+      50,
+      false
+    ],
+    [
+      "dpm20",
+      20,
+      false
+    ],
+    [
+      "pndm50_cache",
+      50,
+      true
+    ],
+    [
+      "dpm20_cache",
+      20,
+      true
+    ]
+  ],
+  "height": 512,
+  "width": 512,
+  "guidance_scale": 7.5,
+  "dtype": "float16",
+  "cache_interval": 3,
+  "cache_branch_id": 0,
+  "warmups_per_mode": 1,
+  "timing": "CUDA synchronized pipeline wall time including text encoder, UNet, VAE, safety checker, CPU image conversion; excludes model load, helper setup, saving and metrics",
+  "quality": "PSNR/SSIM against paired pndm50 output, not ground truth quality; no CLIP/FID",
+  "scheduler_configs": {
+    "pndm50": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "skip_prk_steps": true,
+      "set_alpha_to_one": false,
+      "prediction_type": "epsilon",
+      "timestep_spacing": "leading",
+      "steps_offset": 1,
+      "_use_default_values": [
+        "prediction_type",
+        "timestep_spacing"
+      ],
+      "_class_name": "PNDMScheduler",
+      "_diffusers_version": "0.6.0",
+      "clip_sample": false
+    },
+    "dpm20": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "solver_order": 2,
+      "prediction_type": "epsilon",
+      "thresholding": false,
+      "dynamic_thresholding_ratio": 0.995,
+      "sample_max_value": 1.0,
+      "algorithm_type": "dpmsolver++",
+      "solver_type": "midpoint",
+      "lower_order_final": true,
+      "euler_at_final": false,
+      "use_karras_sigmas": false,
+      "use_lu_lambdas": false,
+      "lambda_min_clipped": -Infinity,
+      "variance_type": null,
+      "timestep_spacing": "linspace",
+      "steps_offset": 1,
+      "_use_default_values": [
+        "lower_order_final",
+        "lambda_min_clipped",
+        "euler_at_final",
+        "thresholding",
+        "prediction_type",
+        "dynamic_thresholding_ratio",
+        "variance_type",
+        "use_lu_lambdas",
+        "sample_max_value"
+      ],
+      "skip_prk_steps": true,
+      "set_alpha_to_one": false,
+      "_class_name": "PNDMScheduler",
+      "_diffusers_version": "0.6.0",
+      "clip_sample": false
+    },
+    "pndm50_cache": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "skip_prk_steps": true,
+      "set_alpha_to_one": false,
+      "prediction_type": "epsilon",
+      "timestep_spacing": "leading",
+      "steps_offset": 1,
+      "_use_default_values": [
+        "prediction_type",
+        "timestep_spacing"
+      ],
+      "_class_name": "PNDMScheduler",
+      "_diffusers_version": "0.6.0",
+      "clip_sample": false
+    },
+    "dpm20_cache": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "solver_order": 2,
+      "prediction_type": "epsilon",
+      "thresholding": false,
+      "dynamic_thresholding_ratio": 0.995,
+      "sample_max_value": 1.0,
+      "algorithm_type": "dpmsolver++",
+      "solver_type": "midpoint",
+      "lower_order_final": true,
+      "euler_at_final": false,
+      "use_karras_sigmas": false,
+      "use_lu_lambdas": false,
+      "lambda_min_clipped": -Infinity,
+      "variance_type": null,
+      "timestep_spacing": "linspace",
+      "steps_offset": 1,
+      "_use_default_values": [
+        "lower_order_final",
+        "lambda_min_clipped",
+        "euler_at_final",
+        "thresholding",
+        "prediction_type",
+        "dynamic_thresholding_ratio",
+        "variance_type",
+        "use_lu_lambdas",
+        "sample_max_value"
+      ],
+      "skip_prk_steps": true,
+      "set_alpha_to_one": false,
+      "_class_name": "PNDMScheduler",
+      "_diffusers_version": "0.6.0",
+      "clip_sample": false
+    }
+  }
+}

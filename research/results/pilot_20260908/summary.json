@@ -1,0 +1,38 @@
+{
+  "pndm50": {
+    "mean_seconds": 156.92922476803264,
+    "min_seconds": 151.54492446780205,
+    "max_seconds": 160.2463810145855,
+    "mean_ssim": 1.0,
+    "mean_psnr_db": null,
+    "peak_allocated_mib": 3526.84033203125,
+    "speedup": 1.0
+  },
+  "dpm20": {
+    "mean_seconds": 61.399691358208656,
+    "min_seconds": 58.64096623659134,
+    "max_seconds": 63.32658778131008,
+    "mean_ssim": 0.5811610619227091,
+    "mean_psnr_db": 15.827605238699658,
+    "peak_allocated_mib": 3526.80908203125,
+    "speedup": 2.5558634139136016
+  },
+  "pndm50_cache": {
+    "mean_seconds": 67.3250488601625,
+    "min_seconds": 64.9436072409153,
+    "max_seconds": 68.54201603680849,
+    "mean_ssim": 0.6272442936897278,
+    "mean_psnr_db": 17.20556666181838,
+    "peak_allocated_mib": 3635.27783203125,
+    "speedup": 2.3309188396429166
+  },
+  "dpm20_cache": {
+    "mean_seconds": 27.26443489268422,
+    "min_seconds": 26.619506519287825,
+    "max_seconds": 27.622829999774694,
+    "mean_ssim": 0.3564647187789281,
+    "mean_psnr_db": 11.949185267516249,
+    "peak_allocated_mib": 3635.49658203125,
+    "speedup": 5.755821655050733
+  }
+}
