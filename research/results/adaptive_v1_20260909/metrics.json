@@ -1,0 +1,371 @@
+[
+  {
+    "case": "astronaut_42",
+    "mode": "dpm20",
+    "seed": 42,
+    "seconds": 59.01806639507413,
+    "peak_allocated_mib": 3522.92626953125,
+    "unet_calls": 20,
+    "full_calls": 20,
+    "reuse_calls": 0,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "refresh_reasons": {
+      "uncached": 20
+    },
+    "psnr_db": null,
+    "ssim": 1.0
+  },
+  {
+    "case": "astronaut_42",
+    "mode": "fixed3",
+    "seed": 42,
+    "seconds": 26.405186012387276,
+    "peak_allocated_mib": 3633.00439453125,
+    "unet_calls": 20,
+    "full_calls": 7,
+    "reuse_calls": 13,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "refresh_reasons": {
+      "fixed_interval": 7
+    },
+    "psnr_db": 10.606678783788412,
+    "ssim": 0.2883405387401581
+  },
+  {
+    "case": "astronaut_42",
+    "mode": "lambda_only",
+    "seed": 42,
+    "seconds": 29.145035166293383,
+    "peak_allocated_mib": 3633.94189453125,
+    "unet_calls": 20,
+    "full_calls": 8,
+    "reuse_calls": 12,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19
+    ],
+    "refresh_reasons": {
+      "initial": 2,
+      "max_age": 5,
+      "final": 1
+    },
+    "psnr_db": 10.31150060849351,
+    "ssim": 0.23199334740638733
+  },
+  {
+    "case": "astronaut_42",
+    "mode": "adaptive_v1",
+    "seed": 42,
+    "seconds": 29.0927218683064,
+    "peak_allocated_mib": 3633.94189453125,
+    "unet_calls": 20,
+    "full_calls": 8,
+    "reuse_calls": 12,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19
+    ],
+    "refresh_reasons": {
+      "initial": 2,
+      "max_age": 5,
+      "final": 1
+    },
+    "psnr_db": 10.31150060849351,
+    "ssim": 0.23199334740638733
+  },
+  {
+    "case": "astronaut_43",
+    "mode": "fixed3",
+    "seed": 43,
+    "seconds": 26.445145048201084,
+    "peak_allocated_mib": 3633.00439453125,
+    "unet_calls": 20,
+    "full_calls": 7,
+    "reuse_calls": 13,
+    "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "refresh_reasons": {
+      "fixed_interval": 7
+    },
+    "psnr_db": 9.83862289509667,
+    "ssim": 0.24755655229091644
+  },
+  {
+    "case": "astronaut_43",
+    "mode": "lambda_only",
+    "seed": 43,
+    "seconds": 29.872238360345364,
+    "peak_allocated_mib": 3633.94189453125,
+    "unet_calls": 20,
+    "full_calls": 8,
+    "reuse_calls": 12,
+    "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19
+    ],
+    "refresh_reasons": {
+      "initial": 2,
+      "max_age": 5,
+      "final": 1
+    },
+    "psnr_db": 11.530712465796142,
+    "ssim": 0.38043469190597534
+  },
+  {
+    "case": "astronaut_43",
+    "mode": "adaptive_v1",
+    "seed": 43,
+    "seconds": 30.145833890885115,
+    "peak_allocated_mib": 3633.94189453125,
+    "unet_calls": 20,
+    "full_calls": 8,
+    "reuse_calls": 12,
+    "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19
+    ],
+    "refresh_reasons": {
+      "initial": 2,
+      "max_age": 5,
+      "final": 1
+    },
+    "psnr_db": 11.530712465796142,
+    "ssim": 0.38043469190597534
+  },
+  {
+    "case": "astronaut_43",
+    "mode": "dpm20",
+    "seed": 43,
+    "seconds": 61.26689301431179,
+    "peak_allocated_mib": 3522.92626953125,
+    "unet_calls": 20,
+    "full_calls": 20,
+    "reuse_calls": 0,
+    "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "refresh_reasons": {
+      "uncached": 20
+    },
+    "psnr_db": null,
+    "ssim": 1.0
+  },
+  {
+    "case": "landscape_42",
+    "mode": "lambda_only",
+    "seed": 42,
+    "seconds": 28.746888738125563,
+    "peak_allocated_mib": 3633.94189453125,
+    "unet_calls": 20,
+    "full_calls": 8,
+    "reuse_calls": 12,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19
+    ],
+    "refresh_reasons": {
+      "initial": 2,
+      "max_age": 5,
+      "final": 1
+    },
+    "psnr_db": 18.113680751808975,
+    "ssim": 0.6226013898849487
+  },
+  {
+    "case": "landscape_42",
+    "mode": "adaptive_v1",
+    "seed": 42,
+    "seconds": 28.814784422516823,
+    "peak_allocated_mib": 3633.94189453125,
+    "unet_calls": 20,
+    "full_calls": 8,
+    "reuse_calls": 12,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      4,
+      7,
+      10,
+      13,
+      16,
+      19
+    ],
+    "refresh_reasons": {
+      "initial": 2,
+      "max_age": 5,
+      "final": 1
+    },
+    "psnr_db": 18.113680751808975,
+    "ssim": 0.6226013898849487
+  },
+  {
+    "case": "landscape_42",
+    "mode": "dpm20",
+    "seed": 42,
+    "seconds": 58.68681311234832,
+    "peak_allocated_mib": 3522.92626953125,
+    "unet_calls": 20,
+    "full_calls": 20,
+    "reuse_calls": 0,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "refresh_reasons": {
+      "uncached": 20
+    },
+    "psnr_db": null,
+    "ssim": 1.0
+  },
+  {
+    "case": "landscape_42",
+    "mode": "fixed3",
+    "seed": 42,
+    "seconds": 26.101975616067648,
+    "peak_allocated_mib": 3633.00439453125,
+    "unet_calls": 20,
+    "full_calls": 7,
+    "reuse_calls": 13,
+    "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc",
+    "nsfw_flag": false,
+    "refresh_indices": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "refresh_reasons": {
+      "fixed_interval": 7
+    },
+    "psnr_db": 16.020259784975213,
+    "ssim": 0.5109827518463135
+  }
+]

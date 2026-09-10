@@ -1,0 +1,50 @@
+{
+  "dpm20": {
+    "mean_seconds": 61.175386817504965,
+    "mean_full_calls": 20,
+    "mean_ssim": 1.0,
+    "mean_psnr_db": null,
+    "peak_allocated_mib": 3533.93408203125,
+    "seconds_range": [
+      59.15627982467413,
+      63.689691469073296
+    ],
+    "speedup_vs_dpm20": 1.0
+  },
+  "fixed3": {
+    "mean_seconds": 26.85006820783019,
+    "mean_full_calls": 7,
+    "mean_ssim": 0.348959947625796,
+    "mean_psnr_db": 12.155187154620098,
+    "peak_allocated_mib": 3641.99658203125,
+    "seconds_range": [
+      26.005385044962168,
+      27.355805911123753
+    ],
+    "speedup_vs_dpm20": 2.2784071289496612
+  },
+  "lambda_only": {
+    "mean_seconds": 32.92021574576696,
+    "mean_full_calls": 9,
+    "mean_ssim": 0.4418950279553731,
+    "mean_psnr_db": 13.52714456251252,
+    "peak_allocated_mib": 3642.37158203125,
+    "seconds_range": [
+      32.5106469206512,
+      33.68781355395913
+    ],
+    "speedup_vs_dpm20": 1.858292402757755
+  },
+  "adaptive_v1": {
+    "mean_seconds": 34.52994468435645,
+    "mean_full_calls": 9.666666666666666,
+    "mean_ssim": 0.45497556527455646,
+    "mean_psnr_db": 14.068270510160199,
+    "peak_allocated_mib": 3642.62158203125,
+    "seconds_range": [
+      32.03109856694937,
+      36.215410217642784
+    ],
+    "speedup_vs_dpm20": 1.771661882945907
+  }
+}

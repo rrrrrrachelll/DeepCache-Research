@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "timestep": 999,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 1,
+    "timestep": 949,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 2,
+    "timestep": 899,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 3,
+    "timestep": 849,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 4,
+    "timestep": 799,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 5,
+    "timestep": 749,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 6,
+    "timestep": 699,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 7,
+    "timestep": 649,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 8,
+    "timestep": 599,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 9,
+    "timestep": 549,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 10,
+    "timestep": 500,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 11,
+    "timestep": 450,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 12,
+    "timestep": 400,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 13,
+    "timestep": 350,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 14,
+    "timestep": 300,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 15,
+    "timestep": 250,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 16,
+    "timestep": 200,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 17,
+    "timestep": 150,
+    "refresh": false,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 18,
+    "timestep": 100,
+    "refresh": true,
+    "reason": "fixed_interval"
+  },
+  {
+    "index": 19,
+    "timestep": 50,
+    "refresh": false,
+    "reason": "fixed_interval"
+  }
+]

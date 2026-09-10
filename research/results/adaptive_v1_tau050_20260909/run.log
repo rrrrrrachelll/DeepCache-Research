@@ -1,0 +1,78 @@
+Warmup dpm20
+Warmup fixed3
+Warmup lambda_only
+Warmup adaptive_v1
+Measured astronaut_42 dpm20
+{"case": "astronaut_42", "mode": "dpm20", "seed": 42, "seconds": 60.68018915876746, "peak_allocated_mib": 3533.93408203125, "unet_calls": 20, "full_calls": 20, "reuse_calls": 0, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "refresh_reasons": {"uncached": 20}}
+Measured astronaut_42 fixed3
+{"case": "astronaut_42", "mode": "fixed3", "seed": 42, "seconds": 27.18901366740465, "peak_allocated_mib": 3641.99658203125, "unet_calls": 20, "full_calls": 7, "reuse_calls": 13, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 3, 6, 9, 12, 15, 18], "refresh_reasons": {"fixed_interval": 7}}
+Measured astronaut_42 lambda_only
+{"case": "astronaut_42", "mode": "lambda_only", "seed": 42, "seconds": 32.562186762690544, "peak_allocated_mib": 3642.37158203125, "unet_calls": 20, "full_calls": 9, "reuse_calls": 11, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 1, 3, 6, 9, 12, 15, 18, 19], "refresh_reasons": {"initial": 2, "risk": 1, "max_age": 5, "final": 1}}
+Measured astronaut_42 adaptive_v1
+{"case": "astronaut_42", "mode": "adaptive_v1", "seed": 42, "seconds": 35.3433252684772, "peak_allocated_mib": 3642.62158203125, "unet_calls": 20, "full_calls": 10, "reuse_calls": 10, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 1, 3, 5, 7, 10, 13, 16, 18, 19], "refresh_reasons": {"initial": 2, "risk": 4, "max_age": 3, "final": 1}}
+Measured astronaut_43 fixed3
+{"case": "astronaut_43", "mode": "fixed3", "seed": 43, "seconds": 27.355805911123753, "peak_allocated_mib": 3641.99658203125, "unet_calls": 20, "full_calls": 7, "reuse_calls": 13, "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1", "nsfw_flag": false, "refresh_indices": [0, 3, 6, 9, 12, 15, 18], "refresh_reasons": {"fixed_interval": 7}}
+Measured astronaut_43 lambda_only
+{"case": "astronaut_43", "mode": "lambda_only", "seed": 43, "seconds": 33.68781355395913, "peak_allocated_mib": 3642.37158203125, "unet_calls": 20, "full_calls": 9, "reuse_calls": 11, "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1", "nsfw_flag": false, "refresh_indices": [0, 1, 3, 6, 9, 12, 15, 18, 19], "refresh_reasons": {"initial": 2, "risk": 1, "max_age": 5, "final": 1}}
+Measured astronaut_43 adaptive_v1
+{"case": "astronaut_43", "mode": "adaptive_v1", "seed": 43, "seconds": 36.215410217642784, "peak_allocated_mib": 3642.62158203125, "unet_calls": 20, "full_calls": 10, "reuse_calls": 10, "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1", "nsfw_flag": false, "refresh_indices": [0, 1, 3, 5, 7, 10, 13, 16, 18, 19], "refresh_reasons": {"initial": 2, "risk": 4, "max_age": 3, "final": 1}}
+Measured astronaut_43 dpm20
+{"case": "astronaut_43", "mode": "dpm20", "seed": 43, "seconds": 63.689691469073296, "peak_allocated_mib": 3533.93408203125, "unet_calls": 20, "full_calls": 20, "reuse_calls": 0, "initial_latent_sha256": "508327f6df909d39e7d59187b9ee264cbc12377fefd41ddaa5a136e498b4e5a1", "nsfw_flag": false, "refresh_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "refresh_reasons": {"uncached": 20}}
+Measured landscape_42 lambda_only
+{"case": "landscape_42", "mode": "lambda_only", "seed": 42, "seconds": 32.5106469206512, "peak_allocated_mib": 3642.37158203125, "unet_calls": 20, "full_calls": 9, "reuse_calls": 11, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 1, 3, 6, 9, 12, 15, 18, 19], "refresh_reasons": {"initial": 2, "risk": 1, "max_age": 5, "final": 1}}
+Measured landscape_42 adaptive_v1
+{"case": "landscape_42", "mode": "adaptive_v1", "seed": 42, "seconds": 32.03109856694937, "peak_allocated_mib": 3642.37158203125, "unet_calls": 20, "full_calls": 9, "reuse_calls": 11, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 1, 3, 5, 8, 11, 14, 17, 19], "refresh_reasons": {"initial": 2, "risk": 2, "max_age": 4, "final": 1}}
+Measured landscape_42 dpm20
+{"case": "landscape_42", "mode": "dpm20", "seed": 42, "seconds": 59.15627982467413, "peak_allocated_mib": 3533.93408203125, "unet_calls": 20, "full_calls": 20, "reuse_calls": 0, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "refresh_reasons": {"uncached": 20}}
+Measured landscape_42 fixed3
+{"case": "landscape_42", "mode": "fixed3", "seed": 42, "seconds": 26.005385044962168, "peak_allocated_mib": 3641.99658203125, "unet_calls": 20, "full_calls": 7, "reuse_calls": 13, "initial_latent_sha256": "4e5879488713b73bc92834e56fa59897b396ef5985ccfd6488348d9a7ae5dfbc", "nsfw_flag": false, "refresh_indices": [0, 3, 6, 9, 12, 15, 18], "refresh_reasons": {"fixed_interval": 7}}
+{
+  "dpm20": {
+    "mean_seconds": 61.175386817504965,
+    "mean_full_calls": 20,
+    "mean_ssim": 1.0,
+    "mean_psnr_db": null,
+    "peak_allocated_mib": 3533.93408203125,
+    "seconds_range": [
+      59.15627982467413,
+      63.689691469073296
+    ],
+    "speedup_vs_dpm20": 1.0
+  },
+  "fixed3": {
+    "mean_seconds": 26.85006820783019,
+    "mean_full_calls": 7,
+    "mean_ssim": 0.348959947625796,
+    "mean_psnr_db": 12.155187154620098,
+    "peak_allocated_mib": 3641.99658203125,
+    "seconds_range": [
+      26.005385044962168,
+      27.355805911123753
+    ],
+    "speedup_vs_dpm20": 2.2784071289496612
+  },
+  "lambda_only": {
+    "mean_seconds": 32.92021574576696,
+    "mean_full_calls": 9,
+    "mean_ssim": 0.4418950279553731,
+    "mean_psnr_db": 13.52714456251252,
+    "peak_allocated_mib": 3642.37158203125,
+    "seconds_range": [
+      32.5106469206512,
+      33.68781355395913
+    ],
+    "speedup_vs_dpm20": 1.858292402757755
+  },
+  "adaptive_v1": {
+    "mean_seconds": 34.52994468435645,
+    "mean_full_calls": 9.666666666666666,
+    "mean_ssim": 0.45497556527455646,
+    "mean_psnr_db": 14.068270510160199,
+    "peak_allocated_mib": 3642.62158203125,
+    "seconds_range": [
+      32.03109856694937,
+      36.215410217642784
+    ],
+    "speedup_vs_dpm20": 1.771661882945907
+  }
+}
