@@ -1,0 +1,22 @@
+{
+  "seeds": [101, 202],
+  "analysis": [
+    {"id": "portrait", "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"},
+    {"id": "people", "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"},
+    {"id": "animal", "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"},
+    {"id": "interior", "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"},
+    {"id": "architecture", "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"},
+    {"id": "nature", "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"},
+    {"id": "objects", "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"},
+    {"id": "text", "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"},
+    {"id": "texture", "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"},
+    {"id": "glass", "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"}
+  ],
+  "held_out_not_run": [
+    {"id": "sport", "prompt": "A photograph of a cyclist in a yellow jacket crossing a stone bridge in the countryside"},
+    {"id": "bird", "prompt": "A photograph of a blue kingfisher perched on a mossy branch above a stream"},
+    {"id": "library", "prompt": "A photograph of a circular library interior with bookshelves and a spiral staircase"},
+    {"id": "night", "prompt": "A photograph of a rainy city intersection at night with neon signs reflected in puddles"},
+    {"id": "market", "prompt": "A photograph of a market stall with baskets of vegetables and handwritten price labels"}
+  ]
+}

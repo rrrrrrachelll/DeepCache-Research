@@ -1,0 +1,162 @@
+[
+  {
+    "case": "portrait_101",
+    "seconds": 65.20279851555824,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": true,
+    "nsfw_flag": false
+  },
+  {
+    "case": "portrait_202",
+    "seconds": 67.02571668475866,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "people_101",
+    "seconds": 65.72802142426372,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "people_202",
+    "seconds": 64.75617822259665,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "animal_101",
+    "seconds": 67.73907472938299,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "animal_202",
+    "seconds": 64.60135995969176,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "interior_101",
+    "seconds": 64.67148803919554,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "interior_202",
+    "seconds": 65.06743026524782,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "architecture_101",
+    "seconds": 64.46666428819299,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "architecture_202",
+    "seconds": 64.23154560104012,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "nature_101",
+    "seconds": 65.13362081348896,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "nature_202",
+    "seconds": 62.95194776728749,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "objects_101",
+    "seconds": 65.27537091821432,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "objects_202",
+    "seconds": 63.50277038291097,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "text_101",
+    "seconds": 63.30605399608612,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "text_202",
+    "seconds": 62.79946404695511,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "texture_101",
+    "seconds": 63.77888675034046,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "texture_202",
+    "seconds": 67.33311903476715,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "glass_101",
+    "seconds": 67.24261130020022,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "e56cb4d6c6c66cae09ead2cb329bfbac91a5b2051c1d53d5adc47aaeea31b372",
+    "pristine_check": false,
+    "nsfw_flag": false
+  },
+  {
+    "case": "glass_202",
+    "seconds": 67.34779609367251,
+    "peak_allocated_mib": 3633.59033203125,
+    "initial_latent_sha256": "b77e77196e9252634bd52a792e7a9073a3877d2b5ae8e92c5cc4e3ab249d685f",
+    "pristine_check": false,
+    "nsfw_flag": false
+  }
+]

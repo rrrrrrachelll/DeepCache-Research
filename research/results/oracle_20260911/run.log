@@ -1,0 +1,43 @@
+[1/20] portrait_101
+Checking paired instrumentation against a pristine uncached pipeline
+PASS: oracle output exactly equals pristine uncached output
+Finished portrait_101: 65.20s, 3634 MiB
+[2/20] portrait_202
+Finished portrait_202: 67.03s, 3634 MiB
+[3/20] people_101
+Finished people_101: 65.73s, 3634 MiB
+[4/20] people_202
+Finished people_202: 64.76s, 3634 MiB
+[5/20] animal_101
+Finished animal_101: 67.74s, 3634 MiB
+[6/20] animal_202
+Finished animal_202: 64.60s, 3634 MiB
+[7/20] interior_101
+Finished interior_101: 64.67s, 3634 MiB
+[8/20] interior_202
+Finished interior_202: 65.07s, 3634 MiB
+[9/20] architecture_101
+Finished architecture_101: 64.47s, 3634 MiB
+[10/20] architecture_202
+Finished architecture_202: 64.23s, 3634 MiB
+[11/20] nature_101
+Finished nature_101: 65.13s, 3634 MiB
+[12/20] nature_202
+Finished nature_202: 62.95s, 3634 MiB
+[13/20] objects_101
+Finished objects_101: 65.28s, 3634 MiB
+[14/20] objects_202
+Finished objects_202: 63.50s, 3634 MiB
+[15/20] text_101
+Finished text_101: 63.31s, 3634 MiB
+[16/20] text_202
+Finished text_202: 62.80s, 3634 MiB
+[17/20] texture_101
+Finished texture_101: 63.78s, 3634 MiB
+[18/20] texture_202
+Finished texture_202: 67.33s, 3634 MiB
+[19/20] glass_101
+Finished glass_101: 67.24s, 3634 MiB
+[20/20] glass_202
+Finished glass_202: 67.35s, 3634 MiB
+Complete

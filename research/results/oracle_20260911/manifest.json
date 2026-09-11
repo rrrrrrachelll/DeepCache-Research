@@ -1,0 +1,280 @@
+{
+  "model": "/home/UserData/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "prompts": {
+    "seeds": [
+      101,
+      202
+    ],
+    "analysis": [
+      {
+        "id": "portrait",
+        "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"
+      },
+      {
+        "id": "people",
+        "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"
+      },
+      {
+        "id": "animal",
+        "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"
+      },
+      {
+        "id": "interior",
+        "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"
+      },
+      {
+        "id": "architecture",
+        "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"
+      },
+      {
+        "id": "nature",
+        "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"
+      },
+      {
+        "id": "objects",
+        "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"
+      },
+      {
+        "id": "text",
+        "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"
+      },
+      {
+        "id": "texture",
+        "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"
+      },
+      {
+        "id": "glass",
+        "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"
+      }
+    ],
+    "held_out_not_run": [
+      {
+        "id": "sport",
+        "prompt": "A photograph of a cyclist in a yellow jacket crossing a stone bridge in the countryside"
+      },
+      {
+        "id": "bird",
+        "prompt": "A photograph of a blue kingfisher perched on a mossy branch above a stream"
+      },
+      {
+        "id": "library",
+        "prompt": "A photograph of a circular library interior with bookshelves and a spiral staircase"
+      },
+      {
+        "id": "night",
+        "prompt": "A photograph of a rainy city intersection at night with neon signs reflected in puddles"
+      },
+      {
+        "id": "market",
+        "prompt": "A photograph of a market stall with baskets of vegetables and handwritten price labels"
+      }
+    ]
+  },
+  "cases": [
+    [
+      {
+        "id": "portrait",
+        "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"
+      },
+      101
+    ],
+    [
+      {
+        "id": "portrait",
+        "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"
+      },
+      202
+    ],
+    [
+      {
+        "id": "people",
+        "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"
+      },
+      101
+    ],
+    [
+      {
+        "id": "people",
+        "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"
+      },
+      202
+    ],
+    [
+      {
+        "id": "animal",
+        "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"
+      },
+      101
+    ],
+    [
+      {
+        "id": "animal",
+        "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"
+      },
+      202
+    ],
+    [
+      {
+        "id": "interior",
+        "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"
+      },
+      101
+    ],
+    [
+      {
+        "id": "interior",
+        "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"
+      },
+      202
+    ],
+    [
+      {
+        "id": "architecture",
+        "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"
+      },
+      101
+    ],
+    [
+      {
+        "id": "architecture",
+        "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"
+      },
+      202
+    ],
+    [
+      {
+        "id": "nature",
+        "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"
+      },
+      101
+    ],
+    [
+      {
+        "id": "nature",
+        "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"
+      },
+      202
+    ],
+    [
+      {
+        "id": "objects",
+        "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"
+      },
+      101
+    ],
+    [
+      {
+        "id": "objects",
+        "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"
+      },
+      202
+    ],
+    [
+      {
+        "id": "text",
+        "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"
+      },
+      101
+    ],
+    [
+      {
+        "id": "text",
+        "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"
+      },
+      202
+    ],
+    [
+      {
+        "id": "texture",
+        "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"
+      },
+      101
+    ],
+    [
+      {
+        "id": "texture",
+        "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"
+      },
+      202
+    ],
+    [
+      {
+        "id": "glass",
+        "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"
+      },
+      101
+    ],
+    [
+      {
+        "id": "glass",
+        "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"
+      },
+      202
+    ]
+  ],
+  "steps": 20,
+  "interval": 3,
+  "branch": 0,
+  "guidance_scale": 7.5,
+  "resolution": [
+    512,
+    512
+  ],
+  "dtype": "float16",
+  "trajectory": "uncached DPM20; shadow cache never advances scheduler",
+  "boundary": "up_blocks[-1].attentions[-2] output; helper key up/attentions/0/1",
+  "feature_error": "mean(abs(cached-full))/max(mean(abs(full)),1e-6)",
+  "proxy": "avg_pool2d(conv_in,4); previous-step and last-refresh relative L1",
+  "timing": "offline instrumented diagnostic, NOT inference acceleration timing",
+  "gpu": "Tesla M60",
+  "git_commit": "d378aab6a2e0c5b587d0947e75dc324ab27660be",
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6"
+  },
+  "source_hashes": {
+    "run_oracle.py": "ed64867f03c61d4bee6a819e5dceee901126a7bec774abb1eebce33b296d7db8",
+    "oracle_cache.py": "3390d6ec570084b78bee34b35f9669475bb719890c2dc140d7547f03648068d1",
+    "oracle_prompts.json": "07d73fd7fb9d397fd08ad99701128efeeef1a4a7d9da6e71b25c8ba9ce254384"
+  },
+  "scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "solver_order": 2,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "sample_max_value": 1.0,
+    "algorithm_type": "dpmsolver++",
+    "solver_type": "midpoint",
+    "lower_order_final": true,
+    "euler_at_final": false,
+    "use_karras_sigmas": false,
+    "use_lu_lambdas": false,
+    "lambda_min_clipped": "-inf",
+    "variance_type": null,
+    "timestep_spacing": "linspace",
+    "steps_offset": 1,
+    "_use_default_values": [
+      "use_lu_lambdas",
+      "sample_max_value",
+      "thresholding",
+      "lambda_min_clipped",
+      "variance_type",
+      "euler_at_final",
+      "lower_order_final",
+      "dynamic_thresholding_ratio",
+      "prediction_type"
+    ],
+    "skip_prk_steps": true,
+    "set_alpha_to_one": false,
+    "_class_name": "PNDMScheduler",
+    "_diffusers_version": "0.6.0",
+    "clip_sample": false
+  }
+}
