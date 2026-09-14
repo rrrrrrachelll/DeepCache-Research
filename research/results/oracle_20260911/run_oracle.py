@@ -1,4 +1,4 @@
-"""Run fixed3 shadow-cache diagnostics without changing the reference trajectory."""
+"""Run fixed-interval shadow-cache diagnostics without changing the reference trajectory."""
 import argparse
 import csv
 import hashlib
@@ -36,6 +36,7 @@ def json_safe(value):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--interval", type=int, choices=(2, 3, 4, 5), default=3)
     parser.add_argument("--limit", type=int, default=0, help="Smoke test sample limit; zero runs all")
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=False)
@@ -54,7 +55,7 @@ def main():
         return DPMSolverMultistepScheduler.from_config(
             original, algorithm_type="dpmsolver++", solver_order=2,
             solver_type="midpoint", timestep_spacing="linspace", use_karras_sigmas=False)
-    manifest = dict(model=model, prompts=prompts, cases=cases, steps=20, interval=3,
+    manifest = dict(model=model, prompts=prompts, cases=cases, steps=20, interval=args.interval,
                     branch=0, guidance_scale=7.5, resolution=[512, 512], dtype="float16",
                     trajectory="uncached DPM20; shadow cache never advances scheduler",
                     boundary="up_blocks[-1].attentions[-2] output; helper key up/attentions/0/1",
@@ -89,7 +90,7 @@ def main():
             reference = pipe(**kwargs).images.copy()
         pipe.scheduler = scheduler()
         pipe.scheduler.set_timesteps(20, device="cuda")
-        helper = OracleCacheHelper(pipe)
+        helper = OracleCacheHelper(pipe, interval=args.interval)
         helper.enable()
         torch.cuda.synchronize()
         torch.cuda.reset_peak_memory_stats()
@@ -102,7 +103,7 @@ def main():
             trace = list(helper.trace)
         finally:
             helper.disable()
-        assert len(trace) == 20 and sum(r["refresh"] for r in trace) == 7
+        assert len(trace) == 20 and sum(r["refresh"] for r in trace) == (19 // args.interval + 1)
         if reference is not None:
             assert np.array_equal(reference, result.images), "Oracle changed the uncached image"
             event("PASS: oracle output exactly equals pristine uncached output")
