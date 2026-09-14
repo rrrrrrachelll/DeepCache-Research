@@ -49,8 +49,8 @@ does not remove approximate predictions already in the multistep solver history.
 From the repository root:
 
 ```bash
-/root/miniconda3/envs/deepcache/bin/python -B -m unittest research.test_adaptive_cache -v
-/root/miniconda3/envs/deepcache/bin/python -B research/run_adaptive.py --output research/results/adaptive_new_run
+/root/miniconda3/envs/deepcache/bin/python -B -m unittest research.results.adaptive_v1_20260909.test_adaptive_cache -v
+/root/miniconda3/envs/deepcache/bin/python -B research/results/adaptive_v1_20260909/run_adaptive.py --output research/results/adaptive_new_run
 ```
 
 Optional flags: `--risk-threshold`, `--feature-weight`, `--feature-spike`,
@@ -59,7 +59,7 @@ Optional flags: `--risk-threshold`, `--feature-weight`, `--feature-spike`,
 The runner measures fresh DPM20, fixed interval-3 cache, lambda-only scheduling
 and adaptive V1 on the same three cases. Each mode has one full warmup. Cases
 rotate mode order. Dimensions, precision, guidance and CUDA initial-noise
-generation match `compare_sampling.py`. All pairs must have equal noise hashes.
+generation match `../pilot_20260908/compare_sampling.py`. All pairs must have equal noise hashes.
 The original safety checker stays enabled.
 
 Pipeline timing synchronizes CUDA and includes text encoding, UNet, VAE,

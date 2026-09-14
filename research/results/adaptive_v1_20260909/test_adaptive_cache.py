@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from diffusers import DPMSolverMultistepScheduler
 
-from research.adaptive_cache import AdaptiveDeepCacheHelper, CachePolicy, RefreshController
+from research.results.adaptive_v1_20260909.adaptive_cache import AdaptiveDeepCacheHelper, CachePolicy, RefreshController
 
 
 class ToyBlock(nn.Module):

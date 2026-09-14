@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw
 from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
 from huggingface_hub import snapshot_download
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from DeepCache import DeepCacheSDHelper
 
 CASES = [

@@ -4,8 +4,8 @@ from types import SimpleNamespace
 import torch
 from diffusers import DPMSolverMultistepScheduler
 from DeepCache import DeepCacheSDHelper
-from research.oracle_cache import OracleCacheHelper, relative_l1
-from research.test_oracle_cache import UNet
+from research.results.oracle_20260911.oracle_cache import OracleCacheHelper, relative_l1
+from research.results.oracle_20260911.test_oracle_cache import UNet
 
 
 class EquivalenceTests(unittest.TestCase):

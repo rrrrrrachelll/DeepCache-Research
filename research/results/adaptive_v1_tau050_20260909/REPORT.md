@@ -1,6 +1,6 @@
 # Adaptive DeepCache V1: Threshold 0.50
 
-Implemented a standalone helper in `research/adaptive_cache.py`, leaving the
+Implemented a standalone helper in `../adaptive_v1_20260909/adaptive_cache.py`, leaving the
 original helper and sampling pilot untouched. This run verifies the first
 feature-aware/log-SNR policy on SD1.5 with deterministic second-order
 DPM-Solver++ at 20 steps. It is an exploratory implementation, not a validated
@@ -11,11 +11,11 @@ improvement across prompts or an equal-cost benchmark.
 From the repository root, choose a new output directory:
 
 ```bash
-/root/miniconda3/envs/deepcache/bin/python -B research/run_adaptive.py --output research/results/adaptive_new_run --risk-threshold 0.50
-/root/miniconda3/envs/deepcache/bin/python -B -m unittest research.test_adaptive_cache research.test_risk_policy -v
+/root/miniconda3/envs/deepcache/bin/python -B research/results/adaptive_v1_tau050_20260909/run.py --output research/results/adaptive_new_run
+/root/miniconda3/envs/deepcache/bin/python -B -m unittest research.results.adaptive_v1_20260909.test_adaptive_cache research.results.adaptive_v1_tau050_20260909.test_risk_policy -v
 ```
 
-The explicit 0.50 flag is required to reproduce this setting. The code's 0.65
+The local `run.py` entry point selects 0.50 by default. The code's 0.65
 default is the initial diagnostic setting, retained for reproducibility. Its
 separate run is in `../adaptive_v1_20260909/`; all dynamic signals there were
 masked by the maximum-age guard. The 0.50 threshold was chosen from the observed

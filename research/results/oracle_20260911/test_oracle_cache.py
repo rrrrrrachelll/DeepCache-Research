@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from diffusers import DPMSolverMultistepScheduler
 
-from research.oracle_cache import OracleCacheHelper, relative_l1
+from research.results.oracle_20260911.oracle_cache import OracleCacheHelper, relative_l1
 
 
 class Block(nn.Module):

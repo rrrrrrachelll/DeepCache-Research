@@ -45,13 +45,14 @@ sampling-stage trends. No naive independent-step significance tests are used.
 ## Run
 
 ```bash
-/root/miniconda3/envs/deepcache/bin/python -B -m unittest research.test_oracle_cache
-/root/miniconda3/envs/deepcache/bin/python -B research/run_oracle.py --output research/results/oracle_NEW
-PYTHONPATH=/tmp/deepcache-oracle-analysis /root/miniconda3/envs/deepcache/bin/python -B research/analyze_oracle.py research/results/oracle_NEW
+/root/miniconda3/envs/deepcache/bin/python -B -m unittest research.results.oracle_20260911.test_oracle_cache
+/root/miniconda3/envs/deepcache/bin/python -B research/results/oracle_20260911/run_oracle.py --output research/results/oracle_NEW
+python -B research/results/oracle_20260911/analyze_oracle.py research/results/oracle_NEW
 ```
 
-The analysis requires SciPy 1.13.1 and Matplotlib 3.8.4, installed separately
-from the baseline environment for this run. `--limit 1` is a smoke test, not the
+The analysis requires SciPy 1.13.1 and Matplotlib 3.8.4. Install the
+packages listed in `oracle_analysis_requirements.txt` into a separate
+analysis environment, then run the analyzer with that environment's Python. `--limit 1` is a smoke test, not the
 full experiment. Existing output directories are never overwritten by the runner.
 Each completed case saves its trace and image immediately. `complete.json`
 marks successful completion; the analyzer requires it.

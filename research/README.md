@@ -1,43 +1,14 @@
-# Sampling and Fixed Cache Pilot
+# Research experiments
 
-Run from the repository root using the existing environment:
+Run commands below from the repository root. The result directories keep the experiment scripts and tests alongside their images and measurements; their reports or protocols explain each run.
 
-```bash
-/root/miniconda3/envs/deepcache/bin/python -B research/compare_sampling.py --output research/results/new_run
-```
+| Experiment | Directory | Main command |
+| --- | --- | --- |
+| Sampling and fixed-cache pilot | [pilot_20260908](results/pilot_20260908/) | `python -B research/results/pilot_20260908/compare_sampling.py --output research/results/new_pilot_run` |
+| Adaptive V1, threshold 0.65 | [adaptive_v1_20260909](results/adaptive_v1_20260909/) | `python -B research/results/adaptive_v1_20260909/run_adaptive.py --output research/results/new_adaptive_run` |
+| Adaptive V1, threshold 0.50 | [adaptive_v1_tau050_20260909](results/adaptive_v1_tau050_20260909/) | `python -B research/results/adaptive_v1_tau050_20260909/run.py --output research/results/new_tau050_run` |
+| Oracle cache analysis | [oracle_20260911](results/oracle_20260911/) | `python -B research/results/oracle_20260911/run_oracle.py --output research/results/new_oracle_run` |
 
-The output directory must not exist. The runner uses local SD1.5 weights and
-the unchanged `DeepCacheSDHelper`. It does not implement adaptive caching.
+The two adaptive runs share the controller and sampling utilities. The threshold-0.50 directory has its own entry point that selects that experiment's setting.
 
-| Mode | Scheduler | Requested steps | Cache |
-| --- | --- | --- | --- |
-| pndm50 | Original model scheduler (PNDM) | 50 | Off |
-| dpm20 | DPM-Solver++, order 2, midpoint, multistep, linspace | 20 | Off |
-| pndm50_cache | Original model scheduler | 50 | Interval 3, branch 0 |
-| dpm20_cache | Same DPM-Solver++ | 20 | Interval 3, branch 0 |
-
-The three paired cases comprise two prompts, with two seeds for the astronaut
-prompt and one seed for the landscape prompt. Initial CUDA float16 noise is
-identical across methods within each case, verified by SHA256. Image size is
-512x512, guidance is 7.5, and the original safety checker remains enabled.
-Each mode receives one full warmup. Measurement order rotates across cases.
-
-Timing uses CUDA synchronization and includes the full pipeline and CPU output
-conversion, but excludes loading, helper setup, saving and quality evaluation.
-Peak allocated memory is PyTorch allocation, not total GPU memory usage. Actual
-UNet calls and refresh decisions are recorded because PNDM can repeat timesteps.
-Classifier-free guidance uses a batched UNet call; NFE here counts calls, not
-individual conditional/unconditional batch elements.
-
-Outputs include individual PNGs, a labeled contact sheet, per-call traces,
-environment/scheduler metadata, per-image JSON/CSV metrics and aggregate JSON.
-PSNR and SSIM compare saved RGB images with the paired uncached PNDM50 image;
-an additional comparison isolates caching changes relative to DPM20. SSIM uses
-an 11x11 Gaussian window, sigma 1.5, population moments and valid cropping,
-averaged across RGB channels. Identical-image PSNR is stored as null (infinite).
-
-This is a small exploratory pilot. Similarity to PNDM is not a measure of
-absolute image quality or prompt alignment. No CLIP, LPIPS or FID is computed.
-Reported timing ranges reflect different cases, not repeated measurements of
-one case. Inspect the PNGs and safety flags before interpreting quality scores.
-Later research evaluation should increase prompts/seeds and repeat timings.
+Historical `manifest.json` files retain their original source paths and SHA256 values as run records; those paths refer to the pre-organization layout. New runs record the current paths.

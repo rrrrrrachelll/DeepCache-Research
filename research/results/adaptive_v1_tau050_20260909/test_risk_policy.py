@@ -1,6 +1,6 @@
 """Focused tests distinguishing risk triggers from guard/spike triggers."""
 import unittest
-from research.adaptive_cache import CachePolicy, RefreshController
+from research.results.adaptive_v1_20260909.adaptive_cache import CachePolicy, RefreshController
 
 
 class RiskTests(unittest.TestCase):

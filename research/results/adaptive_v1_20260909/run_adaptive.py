@@ -17,10 +17,10 @@ from PIL import Image, ImageDraw
 from diffusers import DPMSolverMultistepScheduler, StableDiffusionPipeline
 from huggingface_hub import snapshot_download
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from DeepCache import DeepCacheSDHelper
-from research.adaptive_cache import AdaptiveDeepCacheHelper, CachePolicy
-from research.compare_sampling import CASES, similarity
+from research.results.adaptive_v1_20260909.adaptive_cache import AdaptiveDeepCacheHelper, CachePolicy
+from research.results.pilot_20260908.compare_sampling import CASES, similarity
 
 
 def save_json(path, value):
@@ -62,8 +62,9 @@ def main():
                               ["torch", "diffusers", "transformers", "numpy", "Pillow"]},
                     git_commit=subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
                     source_hashes={str(path): hashlib.sha256(path.read_bytes()).hexdigest() for path in
-                                   [Path(__file__), Path(__file__).with_name("adaptive_cache.py"),
-                                    Path(__file__).with_name("compare_sampling.py")]},
+                                   dict.fromkeys([Path(__file__), Path(sys.argv[0]).resolve(),
+                                    Path(__file__).with_name("adaptive_cache.py"),
+                                    Path(__file__).parents[1] / "pilot_20260908" / "compare_sampling.py"])},
                     warmups_per_mode=1, scheduler_configs={},
                     quality_reference="fresh paired uncached DPM20 RGB image",
                     timing="CUDA synchronized full pipeline; excludes setup, saving and metrics; includes proxy and decision overhead",

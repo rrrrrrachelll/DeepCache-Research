@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from research.analyze_oracle import correlation, within_step_ranks, summarize
+from research.results.oracle_20260911.analyze_oracle import correlation, within_step_ranks, summarize
 
 
 class AnalysisTests(unittest.TestCase):

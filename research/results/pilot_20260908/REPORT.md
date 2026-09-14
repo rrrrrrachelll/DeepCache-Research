@@ -51,4 +51,4 @@ this run, not directly against the earlier 149.36/63.25-second demo.
 See `manifest.json` for exact scheduler configurations, model snapshot,
 versions, runner hash and timing boundaries. `metrics.csv` and `metrics.json`
 contain per-image measurements; `*_steps.json` contain actual call traces.
-The executable protocol is documented in `research/README.md`.
+The executable protocol is documented in `research/results/pilot_20260908/PROTOCOL.md`.

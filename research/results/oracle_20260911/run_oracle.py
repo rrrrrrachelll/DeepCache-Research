@@ -15,9 +15,22 @@ from PIL import Image
 from diffusers import DPMSolverMultistepScheduler, StableDiffusionPipeline
 from huggingface_hub import snapshot_download
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from research.oracle_cache import OracleCacheHelper
-from research.run_adaptive import save_json, json_safe
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from research.results.oracle_20260911.oracle_cache import OracleCacheHelper
+
+
+def save_json(path, value):
+    path.write_text(json.dumps(value, indent=2, allow_nan=False) + "\n")
+
+
+def json_safe(value):
+    if isinstance(value, dict):
+        return {k: json_safe(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [json_safe(v) for v in value]
+    if isinstance(value, float) and not np.isfinite(value):
+        return str(value)
+    return value
 
 
 def main():
