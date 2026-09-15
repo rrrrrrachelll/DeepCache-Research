@@ -1,0 +1,10 @@
+{
+  "cases": 20,
+  "generations": 80,
+  "modes": [
+    "dpm20",
+    "fixed3",
+    "uniform9",
+    "stage_aware9"
+  ]
+}

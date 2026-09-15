@@ -1,0 +1,58 @@
+{
+  "dpm20": {
+    "samples": 20,
+    "mean_seconds": 59.824756398424505,
+    "seconds_range": [
+      57.56687266007066,
+      62.10511216893792
+    ],
+    "mean_full_calls": 20,
+    "mean_ssim": 1.0,
+    "mean_psnr_db": null,
+    "mean_absolute_rgb_error": 0.0,
+    "peak_allocated_mib": 3533.93408203125,
+    "speedup_vs_dpm20": 1.0
+  },
+  "fixed3": {
+    "samples": 20,
+    "mean_seconds": 26.48323193974793,
+    "seconds_range": [
+      25.292157262563705,
+      27.624001152813435
+    ],
+    "mean_full_calls": 7,
+    "mean_ssim": 0.5057466924190521,
+    "mean_psnr_db": 14.68640594096533,
+    "mean_absolute_rgb_error": 0.13267548031277127,
+    "peak_allocated_mib": 3641.99658203125,
+    "speedup_vs_dpm20": 2.2589673546843514
+  },
+  "uniform9": {
+    "samples": 20,
+    "mean_seconds": 31.72724900469184,
+    "seconds_range": [
+      30.318257104605436,
+      33.08283124119043
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.548101119697094,
+    "mean_psnr_db": 15.390599551960944,
+    "mean_absolute_rgb_error": 0.12094066420411752,
+    "peak_allocated_mib": 3642.99658203125,
+    "speedup_vs_dpm20": 1.8855954510766941
+  },
+  "stage_aware9": {
+    "samples": 20,
+    "mean_seconds": 32.02426231093705,
+    "seconds_range": [
+      30.757300086319447,
+      33.254932917654514
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.4664593622088432,
+    "mean_psnr_db": 13.832066215321156,
+    "mean_absolute_rgb_error": 0.14706304263445286,
+    "peak_allocated_mib": 3641.99658203125,
+    "speedup_vs_dpm20": 1.868107243737912
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "experiment": "Closed-loop stage-aware refresh development experiment",
+  "model_path": "/home/UserData/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "cases": [
+    [
+      "portrait_101",
+      "portrait",
+      "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting",
+      101
+    ],
+    [
+      "portrait_202",
+      "portrait",
+      "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting",
+      202
+    ],
+    [
+      "people_101",
+      "people",
+      "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight",
+      101
+    ],
+    [
+      "people_202",
+      "people",
+      "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight",
+      202
+    ],
+    [
+      "animal_101",
+      "animal",
+      "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight",
+      101
+    ],
+    [
+      "animal_202",
+      "animal",
+      "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight",
+      202
+    ],
+    [
+      "interior_101",
+      "interior",
+      "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table",
+      101
+    ],
+    [
+      "interior_202",
+      "interior",
+      "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table",
+      202
+    ],
+    [
+      "architecture_101",
+      "architecture",
+      "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight",
+      101
+    ],
+    [
+      "architecture_202",
+      "architecture",
+      "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight",
+      202
+    ],
+    [
+      "nature_101",
+      "nature",
+      "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning",
+      101
+    ],
+    [
+      "nature_202",
+      "nature",
+      "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning",
+      202
+    ],
+    [
+      "objects_101",
+      "objects",
+      "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table",
+      101
+    ],
+    [
+      "objects_202",
+      "objects",
+      "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table",
+      202
+    ],
+    [
+      "text_101",
+      "text",
+      "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk",
+      101
+    ],
+    [
+      "text_202",
+      "text",
+      "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk",
+      202
+    ],
+    [
+      "texture_101",
+      "texture",
+      "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads",
+      101
+    ],
+    [
+      "texture_202",
+      "texture",
+      "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads",
+      202
+    ],
+    [
+      "glass_101",
+      "glass",
+      "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light",
+      101
+    ],
+    [
+      "glass_202",
+      "glass",
+      "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light",
+      202
+    ]
+  ],
+  "modes": [
+    "dpm20",
+    "fixed3",
+    "uniform9",
+    "stage_aware9"
+  ],
+  "prompts": {
+    "seeds": [
+      101,
+      202
+    ],
+    "analysis": [
+      {
+        "id": "portrait",
+        "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"
+      },
+      {
+        "id": "people",
+        "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"
+      },
+      {
+        "id": "animal",
+        "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"
+      },
+      {
+        "id": "interior",
+        "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"
+      },
+      {
+        "id": "architecture",
+        "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"
+      },
+      {
+        "id": "nature",
+        "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"
+      },
+      {
+        "id": "objects",
+        "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"
+      },
+      {
+        "id": "text",
+        "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"
+      },
+      {
+        "id": "texture",
+        "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"
+      },
+      {
+        "id": "glass",
+        "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"
+      }
+    ],
+    "held_out_not_run": [
+      {
+        "id": "sport",
+        "prompt": "A photograph of a cyclist in a yellow jacket crossing a stone bridge in the countryside"
+      },
+      {
+        "id": "bird",
+        "prompt": "A photograph of a blue kingfisher perched on a mossy branch above a stream"
+      },
+      {
+        "id": "library",
+        "prompt": "A photograph of a circular library interior with bookshelves and a spiral staircase"
+      },
+      {
+        "id": "night",
+        "prompt": "A photograph of a rainy city intersection at night with neon signs reflected in puddles"
+      },
+      {
+        "id": "market",
+        "prompt": "A photograph of a market stall with baskets of vegetables and handwritten price labels"
+      }
+    ]
+  },
+  "held_out_used": false,
+  "height": 512,
+  "width": 512,
+  "guidance_scale": 7.5,
+  "steps": 20,
+  "dtype": "float16",
+  "cache_branch_id": 0,
+  "refresh_indices": {
+    "fixed3": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "uniform9": [
+      0,
+      2,
+      5,
+      7,
+      10,
+      12,
+      14,
+      17,
+      19
+    ],
+    "stage_aware9": [
+      0,
+      4,
+      7,
+      10,
+      13,
+      14,
+      16,
+      18,
+      19
+    ]
+  },
+  "stage_definition": {
+    "early": [
+      0,
+      6
+    ],
+    "middle": [
+      7,
+      13
+    ],
+    "late": [
+      14,
+      19
+    ]
+  },
+  "stage_aware_full_calls": {
+    "early": 2,
+    "middle": 3,
+    "late": 4
+  },
+  "gpu": "Tesla M60",
+  "python": "/root/miniconda3/envs/deepcache/bin/python",
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0"
+  },
+  "git_commit": "d39ca59b8169283ad985ef4d9b70427b9637bcaf",
+  "source_hashes": {
+    "run_stage_aware.py": "aee9e685e4a28cc14b03c483bcc3dfdc917f103953e53fca8551960394b1c146",
+    "stage_aware_cache.py": "e4c67521f3742c40c32813f1fdc5eafdd93b03c6d8037307109ca270ee24aacd",
+    "oracle_prompts.json": "07d73fd7fb9d397fd08ad99701128efeeef1a4a7d9da6e71b25c8ba9ce254384"
+  },
+  "warmups_per_mode": 1,
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "skip_prk_steps": true,
+    "set_alpha_to_one": false,
+    "prediction_type": "epsilon",
+    "timestep_spacing": "leading",
+    "steps_offset": 1,
+    "_use_default_values": [
+      "timestep_spacing",
+      "prediction_type"
+    ],
+    "_class_name": "PNDMScheduler",
+    "_diffusers_version": "0.6.0",
+    "clip_sample": false
+  },
+  "timing": "CUDA-synchronized full pipeline wall time; includes text encoder, UNet, VAE, safety checker and CPU conversion; excludes setup, saving and quality metrics",
+  "quality": "Saved-RGB PSNR and Gaussian SSIM against paired uncached DPM20; reference similarity is not absolute perceptual quality",
+  "note": "Development prompts only. Uniform9 and stage_aware9 have exactly nine full UNet calls; fixed3 is a seven-call speed reference."
+}
