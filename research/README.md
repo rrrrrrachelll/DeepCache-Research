@@ -12,6 +12,7 @@ Run commands below from the repository root. The result directories keep the exp
 | Stage-aware V2 development run | [stage_aware_v2_dev_20260915](results/stage_aware_v2_dev_20260915/) | See `REPORT.md`, `FINDINGS.md`, and `run_stage_aware.py` |
 | Refresh-position ablation | [refresh_position_ablation_20260917](results/refresh_position_ablation_20260917/) | See `REPORT.md`, `FINDINGS.md`, and `run_ablation.py` |
 | Early refresh-window sweep | [early_refresh_window_20260917](results/early_refresh_window_20260917/) | See `REPORT.md`, `FINDINGS.md`, and `run_sweep.py` |
+| One-time held-out final validation | [held_out_final_20260917](results/held_out_final_20260917/) | See `PROTOCOL.md`, `REPORT.md`, and `FINDINGS.md` |
 
 The two adaptive runs share the controller and sampling utilities. The threshold-0.50 directory has its own entry point that selects that experiment's setting.
 

@@ -1,0 +1,258 @@
+{
+  "experiment": "One-time held-out final validation",
+  "model_path": "/home/UserData/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "cases": [
+    [
+      "sport_101",
+      "sport",
+      "A photograph of a cyclist in a yellow jacket crossing a stone bridge in the countryside",
+      101
+    ],
+    [
+      "sport_202",
+      "sport",
+      "A photograph of a cyclist in a yellow jacket crossing a stone bridge in the countryside",
+      202
+    ],
+    [
+      "bird_101",
+      "bird",
+      "A photograph of a blue kingfisher perched on a mossy branch above a stream",
+      101
+    ],
+    [
+      "bird_202",
+      "bird",
+      "A photograph of a blue kingfisher perched on a mossy branch above a stream",
+      202
+    ],
+    [
+      "library_101",
+      "library",
+      "A photograph of a circular library interior with bookshelves and a spiral staircase",
+      101
+    ],
+    [
+      "library_202",
+      "library",
+      "A photograph of a circular library interior with bookshelves and a spiral staircase",
+      202
+    ],
+    [
+      "night_101",
+      "night",
+      "A photograph of a rainy city intersection at night with neon signs reflected in puddles",
+      101
+    ],
+    [
+      "night_202",
+      "night",
+      "A photograph of a rainy city intersection at night with neon signs reflected in puddles",
+      202
+    ],
+    [
+      "market_101",
+      "market",
+      "A photograph of a market stall with baskets of vegetables and handwritten price labels",
+      101
+    ],
+    [
+      "market_202",
+      "market",
+      "A photograph of a market stall with baskets of vegetables and handwritten price labels",
+      202
+    ]
+  ],
+  "modes": [
+    "dpm20",
+    "fixed3",
+    "uniform9",
+    "stage_aware9",
+    "drop_middle8"
+  ],
+  "prompts": {
+    "seeds": [
+      101,
+      202
+    ],
+    "analysis": [
+      {
+        "id": "portrait",
+        "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"
+      },
+      {
+        "id": "people",
+        "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"
+      },
+      {
+        "id": "animal",
+        "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"
+      },
+      {
+        "id": "interior",
+        "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"
+      },
+      {
+        "id": "architecture",
+        "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"
+      },
+      {
+        "id": "nature",
+        "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"
+      },
+      {
+        "id": "objects",
+        "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"
+      },
+      {
+        "id": "text",
+        "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"
+      },
+      {
+        "id": "texture",
+        "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"
+      },
+      {
+        "id": "glass",
+        "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"
+      }
+    ],
+    "held_out_not_run": [
+      {
+        "id": "sport",
+        "prompt": "A photograph of a cyclist in a yellow jacket crossing a stone bridge in the countryside"
+      },
+      {
+        "id": "bird",
+        "prompt": "A photograph of a blue kingfisher perched on a mossy branch above a stream"
+      },
+      {
+        "id": "library",
+        "prompt": "A photograph of a circular library interior with bookshelves and a spiral staircase"
+      },
+      {
+        "id": "night",
+        "prompt": "A photograph of a rainy city intersection at night with neon signs reflected in puddles"
+      },
+      {
+        "id": "market",
+        "prompt": "A photograph of a market stall with baskets of vegetables and handwritten price labels"
+      }
+    ]
+  },
+  "held_out_used": true,
+  "height": 512,
+  "width": 512,
+  "guidance_scale": 7.5,
+  "steps": 20,
+  "dtype": "float16",
+  "cache_branch_id": 0,
+  "refresh_indices": {
+    "fixed3": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "uniform9": [
+      0,
+      2,
+      5,
+      7,
+      10,
+      12,
+      14,
+      17,
+      19
+    ],
+    "stage_aware9": [
+      0,
+      4,
+      7,
+      10,
+      13,
+      14,
+      16,
+      18,
+      19
+    ],
+    "drop_middle8": [
+      0,
+      2,
+      5,
+      7,
+      12,
+      14,
+      17,
+      19
+    ]
+  },
+  "stage_definition": {
+    "early": [
+      0,
+      6
+    ],
+    "middle": [
+      7,
+      13
+    ],
+    "late": [
+      14,
+      19
+    ]
+  },
+  "stage_aware_full_calls": {
+    "early": 2,
+    "middle": 3,
+    "late": 4
+  },
+  "gpu": "Tesla M60",
+  "python": "/root/miniconda3/envs/deepcache/bin/python",
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0"
+  },
+  "git_commit": "1d7c56f52a5d693f4d25c43fe809592d064117fa",
+  "source_hashes": {
+    "run_final.py": "287f24e2727cd3540ca5f47a2cc9139770a2a7b6935654e09ab0ccebb6383544",
+    "stage_aware_cache.py": "e4c67521f3742c40c32813f1fdc5eafdd93b03c6d8037307109ca270ee24aacd",
+    "oracle_prompts.json": "07d73fd7fb9d397fd08ad99701128efeeef1a4a7d9da6e71b25c8ba9ce254384",
+    "PROTOCOL.md": "30f96951b272a45a2fe4d3b3958be8b40640de6701de6c43957cf944725a8564"
+  },
+  "warmups_per_mode": 1,
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "skip_prk_steps": true,
+    "set_alpha_to_one": false,
+    "prediction_type": "epsilon",
+    "timestep_spacing": "leading",
+    "steps_offset": 1,
+    "_use_default_values": [
+      "timestep_spacing",
+      "prediction_type"
+    ],
+    "_class_name": "PNDMScheduler",
+    "_diffusers_version": "0.6.0",
+    "clip_sample": false
+  },
+  "timing": "CUDA-synchronized full pipeline wall time; includes text encoder, UNet, VAE, safety checker and CPU conversion; excludes setup, saving and quality metrics",
+  "quality": "Saved-RGB PSNR and Gaussian SSIM against paired uncached DPM20; reference similarity is not absolute perceptual quality",
+  "frozen_decision_rule": {
+    "primary_contrast": "drop_middle8 minus uniform9 paired SSIM",
+    "acceptable_mean_ssim_loss": 0.01,
+    "acceptable_prompt_loss_threshold": 0.03,
+    "maximum_prompts_beyond_threshold": 1,
+    "compute_requirement": "drop_middle8 must use 8 full calls and be faster on average"
+  },
+  "note": "One-time held-out evaluation. Uniform9 and stage_aware9 use nine full UNet calls, drop_middle8 uses eight, and fixed3 uses seven. Results must not be used to retune a replacement policy on these prompts."
+}

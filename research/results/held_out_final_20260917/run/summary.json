@@ -1,0 +1,72 @@
+{
+  "dpm20": {
+    "samples": 10,
+    "mean_seconds": 59.740871185809375,
+    "seconds_range": [
+      57.703291300684214,
+      62.32677863165736
+    ],
+    "mean_full_calls": 20,
+    "mean_ssim": 1.0,
+    "mean_psnr_db": null,
+    "mean_absolute_rgb_error": 0.0,
+    "peak_allocated_mib": 3531.55908203125,
+    "speedup_vs_dpm20": 1.0
+  },
+  "fixed3": {
+    "samples": 10,
+    "mean_seconds": 26.550006636604667,
+    "seconds_range": [
+      25.808894123882055,
+      27.96182532981038
+    ],
+    "mean_full_calls": 7,
+    "mean_ssim": 0.5114732518792152,
+    "mean_psnr_db": 15.445808424800454,
+    "mean_absolute_rgb_error": 0.1235222521015242,
+    "peak_allocated_mib": 3640.37158203125,
+    "speedup_vs_dpm20": 2.2501264125276808
+  },
+  "uniform9": {
+    "samples": 10,
+    "mean_seconds": 31.799918393045665,
+    "seconds_range": [
+      30.770453061908484,
+      34.07402454689145
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.5776501953601837,
+    "mean_psnr_db": 16.11335784609284,
+    "mean_absolute_rgb_error": 0.10713650223476434,
+    "peak_allocated_mib": 3640.37158203125,
+    "speedup_vs_dpm20": 1.8786485690753887
+  },
+  "stage_aware9": {
+    "samples": 10,
+    "mean_seconds": 32.06241118423641,
+    "seconds_range": [
+      31.13761968910694,
+      34.425805650651455
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.4718895524740219,
+    "mean_psnr_db": 14.694793962538629,
+    "mean_absolute_rgb_error": 0.13772616467444726,
+    "peak_allocated_mib": 3641.12158203125,
+    "speedup_vs_dpm20": 1.8632682003398786
+  },
+  "drop_middle8": {
+    "samples": 10,
+    "mean_seconds": 29.114671606943013,
+    "seconds_range": [
+      28.130224615335464,
+      30.795990455895662
+    ],
+    "mean_full_calls": 8,
+    "mean_ssim": 0.5656156957149505,
+    "mean_psnr_db": 15.982713248346506,
+    "mean_absolute_rgb_error": 0.11005449531904234,
+    "peak_allocated_mib": 3639.37158203125,
+    "speedup_vs_dpm20": 2.0519163668520615
+  }
+}
