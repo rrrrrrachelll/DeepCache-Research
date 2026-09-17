@@ -1,0 +1,41 @@
+{
+  "early1": {
+    "samples": 20,
+    "mean_seconds": 31.308218069188296,
+    "seconds_range": [
+      29.771218340843916,
+      33.732231836766005
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.5280531145632267,
+    "mean_psnr_db": 15.086809875956618,
+    "mean_absolute_rgb_error": 0.12521259133332696,
+    "peak_allocated_mib": 3640.99658203125
+  },
+  "early3": {
+    "samples": 20,
+    "mean_seconds": 31.411764212325217,
+    "seconds_range": [
+      30.18164264038205,
+      33.32277112826705
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.528342892229557,
+    "mean_psnr_db": 14.895261929629639,
+    "mean_absolute_rgb_error": 0.12839127559287875,
+    "peak_allocated_mib": 3641.24658203125
+  },
+  "early4": {
+    "samples": 20,
+    "mean_seconds": 31.352187864482403,
+    "seconds_range": [
+      30.255999360233545,
+      33.444859605282545
+    ],
+    "mean_full_calls": 9,
+    "mean_ssim": 0.48610839769244196,
+    "mean_psnr_db": 14.104027481637868,
+    "mean_absolute_rgb_error": 0.14343230951845257,
+    "peak_allocated_mib": 3641.49658203125
+  }
+}

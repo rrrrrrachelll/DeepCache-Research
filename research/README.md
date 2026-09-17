@@ -10,6 +10,8 @@ Run commands below from the repository root. The result directories keep the exp
 | Oracle cache analysis | [oracle_20260911](results/oracle_20260911/) | `python -B research/results/oracle_20260911/run_oracle.py --output research/results/new_oracle_run` |
 | Oracle interval sweep (2, 3, 4, 5) | [oracle_interval_sweep_20260914](results/oracle_interval_sweep_20260914/) | See the completed `REPORT.md` and reproducible `run_sweep.py` |
 | Stage-aware V2 development run | [stage_aware_v2_dev_20260915](results/stage_aware_v2_dev_20260915/) | See `REPORT.md`, `FINDINGS.md`, and `run_stage_aware.py` |
+| Refresh-position ablation | [refresh_position_ablation_20260917](results/refresh_position_ablation_20260917/) | See `REPORT.md`, `FINDINGS.md`, and `run_ablation.py` |
+| Early refresh-window sweep | [early_refresh_window_20260917](results/early_refresh_window_20260917/) | See `REPORT.md`, `FINDINGS.md`, and `run_sweep.py` |
 
 The two adaptive runs share the controller and sampling utilities. The threshold-0.50 directory has its own entry point that selects that experiment's setting.
 

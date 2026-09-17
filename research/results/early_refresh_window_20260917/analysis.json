@@ -1,0 +1,440 @@
+{
+  "development_prompts": 10,
+  "seeds_per_prompt": 2,
+  "held_out_used": false,
+  "reference_mode": "early2",
+  "differences_vs_early2": [
+    {
+      "mode": "early1",
+      "reference": "early2",
+      "metric": "ssim",
+      "mean_difference": -0.020048005133867265,
+      "prompt_bootstrap_95ci": [
+        -0.049707258306443694,
+        0.00814753064885735
+      ],
+      "prompts_better": 4,
+      "prompts_worse": 6,
+      "by_prompt": {
+        "animal": 0.01693117618560791,
+        "architecture": -0.01430460810661316,
+        "glass": -0.04197818040847778,
+        "interior": 0.03241676092147827,
+        "nature": 0.018173277378082275,
+        "objects": -0.11201828718185425,
+        "people": -0.05234271287918091,
+        "portrait": -0.06382177770137787,
+        "text": 0.04525443911552429,
+        "texture": -0.02879013866186142
+      }
+    },
+    {
+      "mode": "early1",
+      "reference": "early2",
+      "metric": "psnr_db",
+      "mean_difference": -0.30378967600432744,
+      "prompt_bootstrap_95ci": [
+        -0.9237567940037266,
+        0.2950444058004115
+      ],
+      "prompts_better": 4,
+      "prompts_worse": 6,
+      "by_prompt": {
+        "animal": 0.8609922564399719,
+        "architecture": -0.32622625305072006,
+        "glass": -0.41777489861950645,
+        "interior": 0.22997293931449114,
+        "nature": 0.6655484786172945,
+        "objects": -2.11109067909573,
+        "people": -1.1373060904315988,
+        "portrait": -1.4532777602606144,
+        "text": 1.0503849811285901,
+        "texture": -0.39911973408545265
+      }
+    },
+    {
+      "mode": "early1",
+      "reference": "early2",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.004271927129209435,
+      "prompt_bootstrap_95ci": [
+        -0.012150824534347637,
+        0.003970359459421985
+      ],
+      "prompts_better": 3,
+      "prompts_worse": 7,
+      "by_prompt": {
+        "animal": 0.017238811418121933,
+        "architecture": -0.007821191525926793,
+        "glass": -0.007636303371853302,
+        "interior": -0.0005753436119727839,
+        "nature": 0.009175244499655337,
+        "objects": -0.021129024730009188,
+        "people": -0.018137748568665756,
+        "portrait": -0.01832424737269582,
+        "text": 0.013406803405362794,
+        "texture": -0.008916271434110765
+      }
+    },
+    {
+      "mode": "early3",
+      "reference": "early2",
+      "metric": "ssim",
+      "mean_difference": -0.019758227467536926,
+      "prompt_bootstrap_95ci": [
+        -0.04716752342879772,
+        0.007105793729424459
+      ],
+      "prompts_better": 4,
+      "prompts_worse": 6,
+      "by_prompt": {
+        "animal": -0.0143527090549469,
+        "architecture": -0.06375345587730408,
+        "glass": 0.052742987871170044,
+        "interior": -0.014708489179611206,
+        "nature": -0.09469231963157654,
+        "objects": -0.0694112777709961,
+        "people": 0.007000356912612915,
+        "portrait": 0.021437466144561768,
+        "text": 0.008083194494247437,
+        "texture": -0.02992802858352661
+      }
+    },
+    {
+      "mode": "early3",
+      "reference": "early2",
+      "metric": "psnr_db",
+      "mean_difference": -0.4953376223313063,
+      "prompt_bootstrap_95ci": [
+        -1.2465887655827417,
+        0.1566106762653243
+      ],
+      "prompts_better": 3,
+      "prompts_worse": 7,
+      "by_prompt": {
+        "animal": -0.12707870186118875,
+        "architecture": -0.6834903003558628,
+        "glass": 0.8469237277104469,
+        "interior": -0.7855801543342702,
+        "nature": -2.618676213104907,
+        "objects": -2.3679787885011354,
+        "people": -0.030766345495210956,
+        "portrait": 0.7987430669153559,
+        "text": 0.46071148926524597,
+        "texture": -0.44618400355153653
+      }
+    },
+    {
+      "mode": "early3",
+      "reference": "early2",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.007450611388761233,
+      "prompt_bootstrap_95ci": [
+        -0.016632984473035226,
+        0.0014152905208612548
+      ],
+      "prompts_better": 4,
+      "prompts_worse": 6,
+      "by_prompt": {
+        "animal": 0.002985651352826288,
+        "architecture": -0.024405792336058774,
+        "glass": 0.014042336956348295,
+        "interior": -0.01118814804974725,
+        "nature": -0.03306551415935839,
+        "objects": -0.025043622185202202,
+        "people": -0.0020683812160118,
+        "portrait": 0.005880919313119126,
+        "text": 0.0030161963568793443,
+        "texture": -0.004659759920406972
+      }
+    },
+    {
+      "mode": "early4",
+      "reference": "early2",
+      "metric": "ssim",
+      "mean_difference": -0.06199272200465202,
+      "prompt_bootstrap_95ci": [
+        -0.1057100016437471,
+        -0.025961318369954838
+      ],
+      "prompts_better": 1,
+      "prompts_worse": 9,
+      "by_prompt": {
+        "animal": -0.025762319564819336,
+        "architecture": -0.08323809504508972,
+        "glass": -0.016870751976966858,
+        "interior": -0.02206939458847046,
+        "nature": -0.18026769161224365,
+        "objects": -0.1816379427909851,
+        "people": -0.062302350997924805,
+        "portrait": -0.023247137665748596,
+        "text": 0.010121375322341919,
+        "texture": -0.03465291112661362
+      }
+    },
+    {
+      "mode": "early4",
+      "reference": "early2",
+      "metric": "psnr_db",
+      "mean_difference": -1.2865720703230783,
+      "prompt_bootstrap_95ci": [
+        -2.295391506199822,
+        -0.4257769740240488
+      ],
+      "prompts_better": 1,
+      "prompts_worse": 9,
+      "by_prompt": {
+        "animal": -0.6149781502530116,
+        "architecture": -1.2052461312202922,
+        "glass": -0.06406171461840593,
+        "interior": -1.2065521085626312,
+        "nature": -4.20875947207012,
+        "objects": -3.9906392818884893,
+        "people": -1.187678878328323,
+        "portrait": -0.7087831127027266,
+        "text": 0.7853457193667399,
+        "texture": -0.46436757295352393
+      }
+    },
+    {
+      "mode": "early4",
+      "reference": "early2",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.022491645314335045,
+      "prompt_bootstrap_95ci": [
+        -0.036305993385564256,
+        -0.009972075736600599
+      ],
+      "prompts_better": 1,
+      "prompts_worse": 9,
+      "by_prompt": {
+        "animal": -0.004432640823663445,
+        "architecture": -0.03803382574343213,
+        "glass": -0.001847612468245774,
+        "interior": -0.02295316808363971,
+        "nature": -0.06105800703460096,
+        "objects": -0.054522051842384095,
+        "people": -0.025296808379927482,
+        "portrait": -0.01602007797340942,
+        "text": 0.0040366852205563145,
+        "texture": -0.004788946014603765
+      }
+    }
+  ],
+  "pairwise_differences": [
+    {
+      "left": "early1",
+      "right": "early2",
+      "metric": "ssim",
+      "mean_difference": -0.020048005133867265,
+      "prompt_bootstrap_95ci": [
+        -0.05000973084941507,
+        0.007914607413113115
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early3",
+      "metric": "ssim",
+      "mean_difference": -0.00028977766633033755,
+      "prompt_bootstrap_95ci": [
+        -0.03976331580430269,
+        0.03894313914701342
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early4",
+      "metric": "ssim",
+      "mean_difference": 0.04194471687078476,
+      "prompt_bootstrap_95ci": [
+        0.006741678230464458,
+        0.08441642247140406
+      ]
+    },
+    {
+      "left": "early2",
+      "right": "early3",
+      "metric": "ssim",
+      "mean_difference": 0.019758227467536926,
+      "prompt_bootstrap_95ci": [
+        -0.006232255026698112,
+        0.0465897487848997
+      ]
+    },
+    {
+      "left": "early2",
+      "right": "early4",
+      "metric": "ssim",
+      "mean_difference": 0.06199272200465202,
+      "prompt_bootstrap_95ci": [
+        0.02515251224860549,
+        0.10382192503660916
+      ]
+    },
+    {
+      "left": "early3",
+      "right": "early4",
+      "metric": "ssim",
+      "mean_difference": 0.0422344945371151,
+      "prompt_bootstrap_95ci": [
+        0.01942646436393261,
+        0.06582052605226633
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early2",
+      "metric": "psnr_db",
+      "mean_difference": -0.30378967600432744,
+      "prompt_bootstrap_95ci": [
+        -0.9288769870222194,
+        0.28047371822323924
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early3",
+      "metric": "psnr_db",
+      "mean_difference": 0.19154794632697883,
+      "prompt_bootstrap_95ci": [
+        -0.6756685979619695,
+        1.1044622374894693
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early4",
+      "metric": "psnr_db",
+      "mean_difference": 0.9827823943187507,
+      "prompt_bootstrap_95ci": [
+        0.1604998379367532,
+        2.0236049714345525
+      ]
+    },
+    {
+      "left": "early2",
+      "right": "early3",
+      "metric": "psnr_db",
+      "mean_difference": 0.4953376223313063,
+      "prompt_bootstrap_95ci": [
+        -0.17717588525620398,
+        1.233115448193943
+      ]
+    },
+    {
+      "left": "early2",
+      "right": "early4",
+      "metric": "psnr_db",
+      "mean_difference": 1.2865720703230783,
+      "prompt_bootstrap_95ci": [
+        0.42437622514674045,
+        2.2758068584227265
+      ]
+    },
+    {
+      "left": "early3",
+      "right": "early4",
+      "metric": "psnr_db",
+      "mean_difference": 0.7912344479917721,
+      "prompt_bootstrap_95ci": [
+        0.3951836817212357,
+        1.1824639116577242
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early2",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.004271927129209435,
+      "prompt_bootstrap_95ci": [
+        -0.012128563750023942,
+        0.003951033311731671
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early3",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.003178684259551799,
+      "prompt_bootstrap_95ci": [
+        -0.008730152697345011,
+        0.015421213100159085
+      ]
+    },
+    {
+      "left": "early1",
+      "right": "early4",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.018219718185125612,
+      "prompt_bootstrap_95ci": [
+        0.005871121581083807,
+        0.03289520762325113
+      ]
+    },
+    {
+      "left": "early2",
+      "right": "early3",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.007450611388761233,
+      "prompt_bootstrap_95ci": [
+        -0.0012960049498314929,
+        0.016942708831986557
+      ]
+    },
+    {
+      "left": "early2",
+      "right": "early4",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.022491645314335045,
+      "prompt_bootstrap_95ci": [
+        0.00989178777831832,
+        0.03634078191620073
+      ]
+    },
+    {
+      "left": "early3",
+      "right": "early4",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.01504103392557381,
+      "prompt_bootstrap_95ci": [
+        0.008666228250740402,
+        0.021180257036795023
+      ]
+    }
+  ],
+  "grouped_ssim_means": [
+    {
+      "mode": "early1",
+      "mean": 0.5280531145632267,
+      "prompt_bootstrap_95ci": [
+        0.4341449154913426,
+        0.6179304302856325
+      ]
+    },
+    {
+      "mode": "early2",
+      "mean": 0.548101119697094,
+      "prompt_bootstrap_95ci": [
+        0.46104469887912275,
+        0.6322174150124192
+      ]
+    },
+    {
+      "mode": "early3",
+      "mean": 0.528342892229557,
+      "prompt_bootstrap_95ci": [
+        0.433635945096612,
+        0.6040424447506665
+      ]
+    },
+    {
+      "mode": "early4",
+      "mean": 0.48610839769244196,
+      "prompt_bootstrap_95ci": [
+        0.40432176679372783,
+        0.5564366571605206
+      ]
+    }
+  ]
+}
