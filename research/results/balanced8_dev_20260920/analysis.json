@@ -1,0 +1,500 @@
+{
+  "development_prompts": 10,
+  "seeds_per_prompt": 2,
+  "held_out_used": false,
+  "consumed_held_out_reused": false,
+  "comparisons_vs_drop_middle8": [
+    {
+      "left": "balanced8_a",
+      "right": "drop_middle8",
+      "metric": "ssim",
+      "mean_difference": 0.0006190031766891479,
+      "prompt_bootstrap_95ci": [
+        -0.0037367911264300346,
+        0.00424444317817688
+      ],
+      "prompts_better": 7,
+      "prompts_worse": 3,
+      "by_prompt": {
+        "animal": 0.0015265047550201416,
+        "architecture": -0.004655495285987854,
+        "glass": 0.004163950681686401,
+        "interior": 0.0015850067138671875,
+        "nature": 0.0020065605640411377,
+        "objects": 0.006737768650054932,
+        "people": 0.005310505628585815,
+        "portrait": -0.003673240542411804,
+        "text": 0.00821375846862793,
+        "texture": -0.015025287866592407
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "drop_middle8",
+      "metric": "psnr_db",
+      "mean_difference": 0.036627883961756515,
+      "prompt_bootstrap_95ci": [
+        -0.047266430860072574,
+        0.11675158437094443
+      ],
+      "prompts_better": 7,
+      "prompts_worse": 3,
+      "by_prompt": {
+        "animal": 0.03816209330734299,
+        "architecture": 0.09707359022877338,
+        "glass": 0.050083654011864986,
+        "interior": -0.15569466365650797,
+        "nature": -0.13667580382185918,
+        "objects": 0.19727586849172596,
+        "people": 0.2141834787229815,
+        "portrait": 0.017450582585229135,
+        "text": 0.17816603433289835,
+        "texture": -0.133745994584884
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "drop_middle8",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.0006835673213784193,
+      "prompt_bootstrap_95ci": [
+        -0.00045218402887481677,
+        0.0017098194945092324
+      ],
+      "prompts_better": 6,
+      "prompts_worse": 4,
+      "by_prompt": {
+        "animal": 0.0008476282256880685,
+        "architecture": 0.002024008557687404,
+        "glass": 0.0018812491223703098,
+        "interior": -0.0011054394291896488,
+        "nature": -0.0011128618826273945,
+        "objects": 0.001524103700725074,
+        "people": 0.0030866760054444886,
+        "portrait": -5.987329420700793e-05,
+        "text": 0.0024107241163066756,
+        "texture": -0.002660541908413777
+      }
+    },
+    {
+      "left": "balanced8_b",
+      "right": "drop_middle8",
+      "metric": "ssim",
+      "mean_difference": -0.003476761281490326,
+      "prompt_bootstrap_95ci": [
+        -0.008904497362673283,
+        0.0019564677029848096
+      ],
+      "prompts_better": 5,
+      "prompts_worse": 5,
+      "by_prompt": {
+        "animal": -0.008088260889053345,
+        "architecture": -0.015231162309646606,
+        "glass": 0.010114118456840515,
+        "interior": 0.0007135570049285889,
+        "nature": 0.006806910037994385,
+        "objects": -0.01364988088607788,
+        "people": 0.0010421574115753174,
+        "portrait": -0.0022536814212799072,
+        "text": 0.002068459987640381,
+        "texture": -0.016289830207824707
+      }
+    },
+    {
+      "left": "balanced8_b",
+      "right": "drop_middle8",
+      "metric": "psnr_db",
+      "mean_difference": -0.056553926995132106,
+      "prompt_bootstrap_95ci": [
+        -0.12642736083198963,
+        0.020737484793348644
+      ],
+      "prompts_better": 3,
+      "prompts_worse": 7,
+      "by_prompt": {
+        "animal": -0.18366953819837217,
+        "architecture": -0.12477003887665195,
+        "glass": 0.11783034080802235,
+        "interior": -0.14629799706745317,
+        "nature": -0.1871390416612222,
+        "objects": -0.11297347306998695,
+        "people": 0.05860615396063995,
+        "portrait": -0.10073245330343195,
+        "text": 0.1674519449862757,
+        "texture": -0.0538451675291407
+      }
+    },
+    {
+      "left": "balanced8_b",
+      "right": "drop_middle8",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.001257001590105445,
+      "prompt_bootstrap_95ci": [
+        -0.0024707725125979714,
+        -4.251791760812515e-05
+      ],
+      "prompts_better": 3,
+      "prompts_worse": 7,
+      "by_prompt": {
+        "animal": -0.003511847701727161,
+        "architecture": -0.00456246270073786,
+        "glass": 0.0018157335667828428,
+        "interior": -0.002243413488849315,
+        "nature": -0.0016610513325610171,
+        "objects": -0.0018040326685687391,
+        "people": 0.0011616052365770457,
+        "portrait": -0.002182949290556062,
+        "text": 0.0007005703994651183,
+        "texture": -0.0002821679208793032
+      }
+    }
+  ],
+  "comparisons_vs_uniform9": [
+    {
+      "left": "drop_middle8",
+      "right": "uniform9",
+      "metric": "ssim",
+      "mean_difference": -0.004866343736648559,
+      "prompt_bootstrap_95ci": [
+        -0.010035632438957692,
+        0.0008921454846858967
+      ],
+      "prompts_better": 3,
+      "prompts_worse": 7,
+      "by_prompt": {
+        "animal": 0.00557352602481842,
+        "architecture": 0.00295354425907135,
+        "glass": -0.013028472661972046,
+        "interior": -0.0033911168575286865,
+        "nature": -0.007388323545455933,
+        "objects": -0.014500677585601807,
+        "people": -0.014124870300292969,
+        "portrait": -0.003328099846839905,
+        "text": -0.013042956590652466,
+        "texture": 0.011614009737968445
+      }
+    },
+    {
+      "left": "drop_middle8",
+      "right": "uniform9",
+      "metric": "psnr_db",
+      "mean_difference": -0.060500038347488516,
+      "prompt_bootstrap_95ci": [
+        -0.15530868340013634,
+        0.03277371129032708
+      ],
+      "prompts_better": 4,
+      "prompts_worse": 6,
+      "by_prompt": {
+        "animal": 0.017975791175371292,
+        "architecture": -0.1306233008260449,
+        "glass": -0.12191755803993498,
+        "interior": 0.1245444939460274,
+        "nature": 0.1586584175224477,
+        "objects": -0.20065794950369664,
+        "people": -0.30029812333540207,
+        "portrait": -0.06777200323243981,
+        "text": -0.216075002737683,
+        "texture": 0.13116485155646984
+      }
+    },
+    {
+      "left": "drop_middle8",
+      "right": "uniform9",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.0010826729169858018,
+      "prompt_bootstrap_95ci": [
+        -0.002439434656130718,
+        0.0002818303326376144
+      ],
+      "prompts_better": 4,
+      "prompts_worse": 6,
+      "by_prompt": {
+        "animal": 0.0005234412897646007,
+        "architecture": -0.002944829105551716,
+        "glass": -0.002966363445606114,
+        "interior": 0.0008153080161100862,
+        "nature": 0.0012906168021407788,
+        "objects": -0.0018792470296223884,
+        "people": -0.004620149400499124,
+        "portrait": -0.0004441903307546985,
+        "text": -0.002966428270526955,
+        "texture": 0.002365112304687514
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "uniform9",
+      "metric": "ssim",
+      "mean_difference": -0.004247340559959412,
+      "prompt_bootstrap_95ci": [
+        -0.00672221165150404,
+        -0.0012000171095132846
+      ],
+      "prompts_better": 1,
+      "prompts_worse": 9,
+      "by_prompt": {
+        "animal": 0.007100030779838562,
+        "architecture": -0.001701951026916504,
+        "glass": -0.008864521980285645,
+        "interior": -0.001806110143661499,
+        "nature": -0.005381762981414795,
+        "objects": -0.007762908935546875,
+        "people": -0.008814364671707153,
+        "portrait": -0.007001340389251709,
+        "text": -0.004829198122024536,
+        "texture": -0.0034112781286239624
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "uniform9",
+      "metric": "psnr_db",
+      "mean_difference": -0.023872154385732,
+      "prompt_bootstrap_95ci": [
+        -0.04855294443750834,
+        0.0018562926002000267
+      ],
+      "prompts_better": 2,
+      "prompts_worse": 8,
+      "by_prompt": {
+        "animal": 0.056137884482714284,
+        "architecture": -0.03354971059727152,
+        "glass": -0.07183390402807,
+        "interior": -0.03115016971048057,
+        "nature": 0.021982613700588516,
+        "objects": -0.0033820810119706834,
+        "people": -0.08611464461242058,
+        "portrait": -0.05032142064721068,
+        "text": -0.03790896840478464,
+        "texture": -0.002581143028414168
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "uniform9",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.00039910559560738245,
+      "prompt_bootstrap_95ci": [
+        -0.0008191889282924649,
+        7.834543589673205e-05
+      ],
+      "prompts_better": 2,
+      "prompts_worse": 8,
+      "by_prompt": {
+        "animal": 0.0013710695154526692,
+        "architecture": -0.0009208205478643122,
+        "glass": -0.0010851143232358043,
+        "interior": -0.00029013141307956264,
+        "nature": 0.0001777549195133843,
+        "objects": -0.00035514332889731437,
+        "people": -0.0015334733950546353,
+        "portrait": -0.0005040636249617064,
+        "text": -0.0005557041542202795,
+        "texture": -0.00029542960372626326
+      }
+    },
+    {
+      "left": "balanced8_b",
+      "right": "uniform9",
+      "metric": "ssim",
+      "mean_difference": -0.008343105018138886,
+      "prompt_bootstrap_95ci": [
+        -0.013639975190162659,
+        -0.004136943519115448
+      ],
+      "prompts_better": 0,
+      "prompts_worse": 10,
+      "by_prompt": {
+        "animal": -0.0025147348642349243,
+        "architecture": -0.012277618050575256,
+        "glass": -0.0029143542051315308,
+        "interior": -0.0026775598526000977,
+        "nature": -0.0005814135074615479,
+        "objects": -0.028150558471679688,
+        "people": -0.013082712888717651,
+        "portrait": -0.005581781268119812,
+        "text": -0.010974496603012085,
+        "texture": -0.004675820469856262
+      }
+    },
+    {
+      "left": "balanced8_b",
+      "right": "uniform9",
+      "metric": "psnr_db",
+      "mean_difference": -0.11705396534262062,
+      "prompt_bootstrap_95ci": [
+        -0.19315482267593706,
+        -0.04278825146899532
+      ],
+      "prompts_better": 1,
+      "prompts_worse": 9,
+      "by_prompt": {
+        "animal": -0.16569374702300088,
+        "architecture": -0.25539333970269684,
+        "glass": -0.004087217231912632,
+        "interior": -0.021753503121425766,
+        "nature": -0.028480624138774502,
+        "objects": -0.3136314225736836,
+        "people": -0.24169196937476212,
+        "portrait": -0.16850445653587176,
+        "text": -0.048623057751407295,
+        "texture": 0.07731968402732914
+      }
+    },
+    {
+      "left": "balanced8_b",
+      "right": "uniform9",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": -0.0023396745070912465,
+      "prompt_bootstrap_95ci": [
+        -0.003849993244495265,
+        -0.0008790172190448031
+      ],
+      "prompts_better": 1,
+      "prompts_worse": 9,
+      "by_prompt": {
+        "animal": -0.0029884064119625603,
+        "architecture": -0.007507291806289576,
+        "glass": -0.0011506298788232713,
+        "interior": -0.0014281054727392287,
+        "nature": -0.00037043453042023833,
+        "objects": -0.0036832796981911275,
+        "people": -0.003458544163922078,
+        "portrait": -0.0026271396213107603,
+        "text": -0.002265857871061837,
+        "texture": 0.0020829443838082107
+      }
+    }
+  ],
+  "balanced_pairwise": [
+    {
+      "left": "balanced8_a",
+      "right": "balanced8_b",
+      "metric": "ssim",
+      "mean_difference": 0.0040957644581794735,
+      "prompt_bootstrap_95ci": [
+        -0.00034489192068576813,
+        0.009028000086545942
+      ],
+      "prompts_better": 7,
+      "prompts_worse": 3,
+      "by_prompt": {
+        "animal": 0.009614765644073486,
+        "architecture": 0.010575667023658752,
+        "glass": -0.005950167775154114,
+        "interior": 0.0008714497089385986,
+        "nature": -0.004800349473953247,
+        "objects": 0.020387649536132812,
+        "people": 0.004268348217010498,
+        "portrait": -0.001419559121131897,
+        "text": 0.006145298480987549,
+        "texture": 0.0012645423412322998
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "balanced8_b",
+      "metric": "psnr_db",
+      "mean_difference": 0.09318181095688863,
+      "prompt_bootstrap_95ci": [
+        0.01623181939672309,
+        0.1725170569101365
+      ],
+      "prompts_better": 7,
+      "prompts_worse": 3,
+      "by_prompt": {
+        "animal": 0.22183163150571517,
+        "architecture": 0.22184362910542532,
+        "glass": -0.06774668679615736,
+        "interior": -0.009396666589054803,
+        "nature": 0.05046323783936302,
+        "objects": 0.3102493415617129,
+        "people": 0.15557732476234154,
+        "portrait": 0.11818303588866108,
+        "text": 0.010714089346622657,
+        "texture": -0.0799008270557433
+      }
+    },
+    {
+      "left": "balanced8_a",
+      "right": "balanced8_b",
+      "metric": "mean_absolute_rgb_error",
+      "mean_difference": 0.0019405689114838642,
+      "prompt_bootstrap_95ci": [
+        0.0004946224237579126,
+        0.00342133607428059
+      ],
+      "prompts_better": 9,
+      "prompts_worse": 1,
+      "by_prompt": {
+        "animal": 0.0043594759274152295,
+        "architecture": 0.006586471258425264,
+        "glass": 6.551555558746702e-05,
+        "interior": 0.001137974059659666,
+        "nature": 0.0005481894499336226,
+        "objects": 0.003328136369293813,
+        "people": 0.0019250707688674429,
+        "portrait": 0.002123075996349054,
+        "text": 0.0017101537168415573,
+        "texture": -0.002378373987534474
+      }
+    }
+  ],
+  "selected_eight_call_schedule": "balanced8_a",
+  "summary": {
+    "uniform9": {
+      "samples": 20,
+      "mean_seconds": 31.72724900469184,
+      "seconds_range": [
+        30.318257104605436,
+        33.08283124119043
+      ],
+      "mean_full_calls": 9,
+      "mean_ssim": 0.548101119697094,
+      "mean_psnr_db": 15.390599551960944,
+      "mean_absolute_rgb_error": 0.12094066420411752,
+      "peak_allocated_mib": 3642.99658203125,
+      "speedup_vs_dpm20": 1.8855954510766941
+    },
+    "drop_middle8": {
+      "samples": 20,
+      "mean_seconds": 29.45187810976058,
+      "seconds_range": [
+        27.863326456397772,
+        30.661629356443882
+      ],
+      "mean_full_calls": 8,
+      "mean_ssim": 0.5432347759604454,
+      "mean_psnr_db": 15.330099513613456,
+      "mean_absolute_rgb_error": 0.12202333712110332,
+      "peak_allocated_mib": 3638.12158203125
+    },
+    "balanced8_a": {
+      "samples": 20,
+      "mean_seconds": 29.844141941703857,
+      "seconds_range": [
+        27.730350822210312,
+        31.643958561122417
+      ],
+      "mean_full_calls": 8,
+      "mean_ssim": 0.5438537791371345,
+      "mean_psnr_db": 15.366727397575213,
+      "mean_absolute_rgb_error": 0.1213397697997249,
+      "peak_allocated_mib": 3638.12158203125
+    },
+    "balanced8_b": {
+      "samples": 20,
+      "mean_seconds": 29.8953894758597,
+      "seconds_range": [
+        27.942218024283648,
+        31.66454239934683
+      ],
+      "mean_full_calls": 8,
+      "mean_ssim": 0.5397580146789551,
+      "mean_psnr_db": 15.273545586618324,
+      "mean_absolute_rgb_error": 0.12328033871120876,
+      "peak_allocated_mib": 3638.99658203125
+    }
+  }
+}

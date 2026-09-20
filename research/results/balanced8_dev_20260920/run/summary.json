@@ -1,0 +1,28 @@
+{
+  "balanced8_a": {
+    "samples": 20,
+    "mean_seconds": 29.844141941703857,
+    "seconds_range": [
+      27.730350822210312,
+      31.643958561122417
+    ],
+    "mean_full_calls": 8,
+    "mean_ssim": 0.5438537791371345,
+    "mean_psnr_db": 15.366727397575213,
+    "mean_absolute_rgb_error": 0.1213397697997249,
+    "peak_allocated_mib": 3638.12158203125
+  },
+  "balanced8_b": {
+    "samples": 20,
+    "mean_seconds": 29.8953894758597,
+    "seconds_range": [
+      27.942218024283648,
+      31.66454239934683
+    ],
+    "mean_full_calls": 8,
+    "mean_ssim": 0.5397580146789551,
+    "mean_psnr_db": 15.273545586618324,
+    "mean_absolute_rgb_error": 0.12328033871120876,
+    "peak_allocated_mib": 3638.99658203125
+  }
+}

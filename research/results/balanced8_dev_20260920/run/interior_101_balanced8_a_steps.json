@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "timestep": 999,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 1,
+    "timestep": 949,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 2,
+    "timestep": 899,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 3,
+    "timestep": 849,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 4,
+    "timestep": 799,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 5,
+    "timestep": 749,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 6,
+    "timestep": 699,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 7,
+    "timestep": 649,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 8,
+    "timestep": 599,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 9,
+    "timestep": 549,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 10,
+    "timestep": 500,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 11,
+    "timestep": 450,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 12,
+    "timestep": 400,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 13,
+    "timestep": 350,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 14,
+    "timestep": 300,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 15,
+    "timestep": 250,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 16,
+    "timestep": 200,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  },
+  {
+    "index": 17,
+    "timestep": 150,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 18,
+    "timestep": 100,
+    "refresh": false,
+    "reason": "scheduled_reuse"
+  },
+  {
+    "index": 19,
+    "timestep": 50,
+    "refresh": true,
+    "reason": "scheduled_refresh"
+  }
+]
