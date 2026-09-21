@@ -1,0 +1,257 @@
+[
+  {
+    "step": 0,
+    "timestep": 999,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 1,
+    "timestep": 949,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.029084760695695877,
+    "probes": {}
+  },
+  {
+    "step": 2,
+    "timestep": 899,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 3,
+    "timestep": 849,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.06898888945579529,
+    "probes": {}
+  },
+  {
+    "step": 4,
+    "timestep": 799,
+    "refresh": false,
+    "age": 2,
+    "baseline_guided_noise_error": 0.08441682904958725,
+    "probes": {
+      "activation_only": {
+        "guided_noise_error": 0.08441682904958725,
+        "error_reduction": 0.0,
+        "recovery_fraction": 0.0,
+        "milliseconds": 367.1700134277344
+      },
+      "suffix_only": {
+        "guided_noise_error": 0.08471202850341797,
+        "error_reduction": -0.000295199453830719,
+        "recovery_fraction": -0.0034969265862535067,
+        "milliseconds": 1109.100341796875
+      },
+      "activation_plus_suffix": {
+        "guided_noise_error": 0.013548891991376877,
+        "error_reduction": 0.07086793705821037,
+        "recovery_fraction": 0.8395001074558471,
+        "milliseconds": 1120.974365234375
+      }
+    }
+  },
+  {
+    "step": 5,
+    "timestep": 749,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 6,
+    "timestep": 699,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.09563903510570526,
+    "probes": {}
+  },
+  {
+    "step": 7,
+    "timestep": 649,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 8,
+    "timestep": 599,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.07121376693248749,
+    "probes": {}
+  },
+  {
+    "step": 9,
+    "timestep": 549,
+    "refresh": false,
+    "age": 2,
+    "baseline_guided_noise_error": 0.11084665358066559,
+    "probes": {
+      "activation_only": {
+        "guided_noise_error": 0.11084665358066559,
+        "error_reduction": 0.0,
+        "recovery_fraction": 0.0,
+        "milliseconds": 385.49884033203125
+      },
+      "suffix_only": {
+        "guided_noise_error": 0.11188524216413498,
+        "error_reduction": -0.0010385885834693909,
+        "recovery_fraction": -0.009369597997954776,
+        "milliseconds": 1350.7347412109375
+      },
+      "activation_plus_suffix": {
+        "guided_noise_error": 0.02954210713505745,
+        "error_reduction": 0.08130454644560814,
+        "recovery_fraction": 0.7334867027486852,
+        "milliseconds": 1379.09912109375
+      }
+    }
+  },
+  {
+    "step": 10,
+    "timestep": 500,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 11,
+    "timestep": 450,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.04990839958190918,
+    "probes": {}
+  },
+  {
+    "step": 12,
+    "timestep": 400,
+    "refresh": false,
+    "age": 2,
+    "baseline_guided_noise_error": 0.09670108556747437,
+    "probes": {
+      "activation_only": {
+        "guided_noise_error": 0.09670108556747437,
+        "error_reduction": 0.0,
+        "recovery_fraction": 0.0,
+        "milliseconds": 412.7339172363281
+      },
+      "suffix_only": {
+        "guided_noise_error": 0.0957142561674118,
+        "error_reduction": 0.000986829400062561,
+        "recovery_fraction": 0.01020494645196086,
+        "milliseconds": 1442.5340576171875
+      },
+      "activation_plus_suffix": {
+        "guided_noise_error": 0.03243871033191681,
+        "error_reduction": 0.06426237523555756,
+        "recovery_fraction": 0.6645465752369212,
+        "milliseconds": 1454.781982421875
+      }
+    }
+  },
+  {
+    "step": 13,
+    "timestep": 350,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 14,
+    "timestep": 300,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.05696868151426315,
+    "probes": {}
+  },
+  {
+    "step": 15,
+    "timestep": 250,
+    "refresh": false,
+    "age": 2,
+    "baseline_guided_noise_error": 0.11785932630300522,
+    "probes": {
+      "activation_only": {
+        "guided_noise_error": 0.11785932630300522,
+        "error_reduction": 0.0,
+        "recovery_fraction": 0.0,
+        "milliseconds": 433.7921447753906
+      },
+      "suffix_only": {
+        "guided_noise_error": 0.11298028379678726,
+        "error_reduction": 0.0048790425062179565,
+        "recovery_fraction": 0.04139716948385059,
+        "milliseconds": 1494.346435546875
+      },
+      "activation_plus_suffix": {
+        "guided_noise_error": 0.04674741253256798,
+        "error_reduction": 0.07111191377043724,
+        "recovery_fraction": 0.6033626357884926,
+        "milliseconds": 1495.65771484375
+      }
+    }
+  },
+  {
+    "step": 16,
+    "timestep": 200,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  },
+  {
+    "step": 17,
+    "timestep": 150,
+    "refresh": false,
+    "age": 1,
+    "baseline_guided_noise_error": 0.0775151476264,
+    "probes": {}
+  },
+  {
+    "step": 18,
+    "timestep": 100,
+    "refresh": false,
+    "age": 2,
+    "baseline_guided_noise_error": 0.17912296950817108,
+    "probes": {
+      "activation_only": {
+        "guided_noise_error": 0.17912296950817108,
+        "error_reduction": 0.0,
+        "recovery_fraction": 0.0,
+        "milliseconds": 452.57135009765625
+      },
+      "suffix_only": {
+        "guided_noise_error": 0.167374849319458,
+        "error_reduction": 0.011748120188713074,
+        "recovery_fraction": 0.06558689944104103,
+        "milliseconds": 1525.391357421875
+      },
+      "activation_plus_suffix": {
+        "guided_noise_error": 0.08544551581144333,
+        "error_reduction": 0.09367745369672775,
+        "recovery_fraction": 0.5229784541532763,
+        "milliseconds": 1525.2333984375
+      }
+    }
+  },
+  {
+    "step": 19,
+    "timestep": 50,
+    "refresh": true,
+    "age": 0,
+    "baseline_guided_noise_error": 0.0,
+    "probes": {}
+  }
+]

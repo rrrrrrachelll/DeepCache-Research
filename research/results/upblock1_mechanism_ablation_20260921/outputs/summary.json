@@ -1,0 +1,115 @@
+{
+  "num_cases": 10,
+  "baseline_reuse_guided_noise_error": {
+    "n": 120,
+    "mean": 0.07735252234463891,
+    "std": 0.03965253884244222,
+    "min": 0.01724001206457615,
+    "max": 0.25645172595977783
+  },
+  "probes": {
+    "activation_only": {
+      "recovery_fraction": {
+        "n": 50,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "guided_noise_error": {
+        "n": 50,
+        "mean": 0.10641531944274903,
+        "std": 0.038830716620327936,
+        "min": 0.03974316269159317,
+        "max": 0.25645172595977783
+      },
+      "milliseconds": {
+        "n": 50,
+        "mean": 419.07469482421874,
+        "std": 40.735299217206844,
+        "min": 357.5343017578125,
+        "max": 512.1074829101562
+      }
+    },
+    "suffix_only": {
+      "recovery_fraction": {
+        "n": 50,
+        "mean": 0.027637981177621673,
+        "std": 0.03625427050080419,
+        "min": -0.029514917944752816,
+        "max": 0.10754544976604805
+      },
+      "guided_noise_error": {
+        "n": 50,
+        "mean": 0.10301692381501198,
+        "std": 0.03661983565069891,
+        "min": 0.04003267362713814,
+        "max": 0.2484939694404602
+      },
+      "milliseconds": {
+        "n": 50,
+        "mean": 1380.8455078125,
+        "std": 164.60831890432866,
+        "min": 1076.732177734375,
+        "max": 1616.22314453125
+      }
+    },
+    "activation_plus_suffix": {
+      "recovery_fraction": {
+        "n": 50,
+        "mean": 0.6857656731411796,
+        "std": 0.13505127339554668,
+        "min": 0.4436711359886704,
+        "max": 0.8978147551824102
+      },
+      "guided_noise_error": {
+        "n": 50,
+        "mean": 0.03559016746468842,
+        "std": 0.024178310938098725,
+        "min": 0.00631718197837472,
+        "max": 0.09600873291492462
+      },
+      "milliseconds": {
+        "n": 50,
+        "mean": 1394.8001708984375,
+        "std": 151.80981296334758,
+        "min": 1099.8236083984375,
+        "max": 1612.5504150390625
+      }
+    }
+  },
+  "recovery_by_step": {
+    "4": {
+      "activation_only": 0.0,
+      "suffix_only": -0.005440695637437422,
+      "activation_plus_suffix": 0.8539336142474317
+    },
+    "9": {
+      "activation_only": 0.0,
+      "suffix_only": -0.002639364296401995,
+      "activation_plus_suffix": 0.7775471264418627
+    },
+    "12": {
+      "activation_only": 0.0,
+      "suffix_only": 0.0230849945871302,
+      "activation_plus_suffix": 0.6841583199617582
+    },
+    "15": {
+      "activation_only": 0.0,
+      "suffix_only": 0.04738893612076158,
+      "activation_plus_suffix": 0.6074438771129611
+    },
+    "18": {
+      "activation_only": 0.0,
+      "suffix_only": 0.075796035114056,
+      "activation_plus_suffix": 0.5057454279418846
+    }
+  },
+  "runtime_implication": {
+    "balanced8_a_seconds_from_existing_dev": 29.84,
+    "uniform9_seconds_from_existing_dev": 31.73,
+    "five_probe_suffix_overhead_seconds": 6.974000854492187,
+    "estimated_balanced8_plus_full_suffix_seconds": 36.814000854492186,
+    "note": "Lower-bound propagation estimate; excludes residual-predictor cost."
+  }
+}

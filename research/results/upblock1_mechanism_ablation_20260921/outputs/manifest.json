@@ -1,0 +1,118 @@
+{
+  "model": "runwayml/stable-diffusion-v1-5",
+  "scheduler": "DPM-Solver++ order 2",
+  "num_inference_steps": 20,
+  "guidance_scale": 7.5,
+  "cache_branch_id": 0,
+  "refresh_schedule": [
+    0,
+    2,
+    5,
+    7,
+    10,
+    13,
+    16,
+    19
+  ],
+  "probe_steps": [
+    4,
+    9,
+    12,
+    15,
+    18
+  ],
+  "target": "logical up_block_1 (pipe.unet.up_blocks[2])",
+  "split": "same five development prompts as block feature oracle; held-out excluded",
+  "cases": [
+    {
+      "case_id": "portrait_seed0",
+      "prompt_id": "portrait",
+      "prompt": "A cinematic portrait photo of an elderly sailor, detailed weathered face, dramatic side lighting, 85mm lens",
+      "seed": 0,
+      "elapsed_seconds": 80.52418985590339,
+      "pristine_exact_match": true,
+      "trace": "portrait_seed0.json"
+    },
+    {
+      "case_id": "portrait_seed1",
+      "prompt_id": "portrait",
+      "prompt": "A cinematic portrait photo of an elderly sailor, detailed weathered face, dramatic side lighting, 85mm lens",
+      "seed": 1,
+      "elapsed_seconds": 80.90863698720932,
+      "pristine_exact_match": false,
+      "trace": "portrait_seed1.json"
+    },
+    {
+      "case_id": "animal_seed0",
+      "prompt_id": "animal",
+      "prompt": "A red fox sitting in a snowy forest at sunrise, highly detailed fur, soft golden light",
+      "seed": 0,
+      "elapsed_seconds": 79.66862843185663,
+      "pristine_exact_match": false,
+      "trace": "animal_seed0.json"
+    },
+    {
+      "case_id": "animal_seed1",
+      "prompt_id": "animal",
+      "prompt": "A red fox sitting in a snowy forest at sunrise, highly detailed fur, soft golden light",
+      "seed": 1,
+      "elapsed_seconds": 81.2413337379694,
+      "pristine_exact_match": false,
+      "trace": "animal_seed1.json"
+    },
+    {
+      "case_id": "interior_seed0",
+      "prompt_id": "interior",
+      "prompt": "A cozy reading room with wooden bookshelves, a fireplace, warm lamps, realistic interior photography",
+      "seed": 0,
+      "elapsed_seconds": 81.30298736691475,
+      "pristine_exact_match": false,
+      "trace": "interior_seed0.json"
+    },
+    {
+      "case_id": "interior_seed1",
+      "prompt_id": "interior",
+      "prompt": "A cozy reading room with wooden bookshelves, a fireplace, warm lamps, realistic interior photography",
+      "seed": 1,
+      "elapsed_seconds": 77.62105563655496,
+      "pristine_exact_match": false,
+      "trace": "interior_seed1.json"
+    },
+    {
+      "case_id": "architecture_seed0",
+      "prompt_id": "architecture",
+      "prompt": "A futuristic glass museum beside a calm lake, symmetrical architecture, blue hour, ultra realistic",
+      "seed": 0,
+      "elapsed_seconds": 83.26130037009716,
+      "pristine_exact_match": false,
+      "trace": "architecture_seed0.json"
+    },
+    {
+      "case_id": "architecture_seed1",
+      "prompt_id": "architecture",
+      "prompt": "A futuristic glass museum beside a calm lake, symmetrical architecture, blue hour, ultra realistic",
+      "seed": 1,
+      "elapsed_seconds": 75.44875598326325,
+      "pristine_exact_match": false,
+      "trace": "architecture_seed1.json"
+    },
+    {
+      "case_id": "texture_seed0",
+      "prompt_id": "texture",
+      "prompt": "Macro photograph of colorful mineral crystals, intricate texture, sharp focus, studio lighting",
+      "seed": 0,
+      "elapsed_seconds": 83.23556524887681,
+      "pristine_exact_match": false,
+      "trace": "texture_seed0.json"
+    },
+    {
+      "case_id": "texture_seed1",
+      "prompt_id": "texture",
+      "prompt": "Macro photograph of colorful mineral crystals, intricate texture, sharp focus, studio lighting",
+      "seed": 1,
+      "elapsed_seconds": 75.26571604982018,
+      "pristine_exact_match": false,
+      "trace": "texture_seed1.json"
+    }
+  ]
+}
