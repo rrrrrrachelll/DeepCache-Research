@@ -1,0 +1,351 @@
+{
+  "model": "runwayml/stable-diffusion-v1-5",
+  "refresh_steps": [
+    0,
+    2,
+    5,
+    7,
+    10,
+    13,
+    16,
+    19
+  ],
+  "probe_steps": [
+    4,
+    9,
+    12,
+    15,
+    18
+  ],
+  "split": "analysis prompts with prompt-grouped LOPO; held-out excluded",
+  "prompts": [
+    {
+      "id": "portrait",
+      "prompt": "A studio photograph of an elderly woman with curly silver hair wearing a green wool sweater, detailed face, soft side lighting"
+    },
+    {
+      "id": "people",
+      "prompt": "A photograph of two musicians playing violin and cello on a small outdoor stage, full bodies, afternoon daylight"
+    },
+    {
+      "id": "animal",
+      "prompt": "A wildlife photograph of a red fox standing in fresh snow beside a birch tree, detailed fur, overcast daylight"
+    },
+    {
+      "id": "interior",
+      "prompt": "A photograph of a modern kitchen with white cabinets, a green tiled wall, steel appliances and a wooden dining table"
+    },
+    {
+      "id": "architecture",
+      "prompt": "An architectural photograph of a Gothic cathedral facade with elaborate stone carvings and tall windows, clear daylight"
+    },
+    {
+      "id": "nature",
+      "prompt": "A landscape photograph of a coastal cliff with wildflowers above a turquoise sea, a lighthouse in the distance, clear morning"
+    },
+    {
+      "id": "objects",
+      "prompt": "A still life photograph of three red apples, a blue ceramic mug, an open book and a brass key arranged on a white table"
+    },
+    {
+      "id": "text",
+      "prompt": "A frontal photograph of a small flower shop with a sign reading FLOWERS above the entrance, buckets of colorful flowers on the sidewalk"
+    },
+    {
+      "id": "texture",
+      "prompt": "A close-up photograph of embroidered fabric with intricate red, green and gold geometric patterns, clearly visible individual threads"
+    },
+    {
+      "id": "glass",
+      "prompt": "A food photograph of sliced oranges and a transparent glass of sparkling water on a reflective metal tray, strong window light"
+    }
+  ],
+  "seeds": [
+    101,
+    202
+  ],
+  "collection": [
+    {
+      "case": "portrait_seed101",
+      "prompt_id": "portrait",
+      "seed": 101,
+      "file": "stats/portrait_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "portrait_seed202",
+      "prompt_id": "portrait",
+      "seed": 202,
+      "file": "stats/portrait_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "people_seed101",
+      "prompt_id": "people",
+      "seed": 101,
+      "file": "stats/people_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "people_seed202",
+      "prompt_id": "people",
+      "seed": 202,
+      "file": "stats/people_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "animal_seed101",
+      "prompt_id": "animal",
+      "seed": 101,
+      "file": "stats/animal_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "animal_seed202",
+      "prompt_id": "animal",
+      "seed": 202,
+      "file": "stats/animal_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "interior_seed101",
+      "prompt_id": "interior",
+      "seed": 101,
+      "file": "stats/interior_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "interior_seed202",
+      "prompt_id": "interior",
+      "seed": 202,
+      "file": "stats/interior_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "architecture_seed101",
+      "prompt_id": "architecture",
+      "seed": 101,
+      "file": "stats/architecture_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "architecture_seed202",
+      "prompt_id": "architecture",
+      "seed": 202,
+      "file": "stats/architecture_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "nature_seed101",
+      "prompt_id": "nature",
+      "seed": 101,
+      "file": "stats/nature_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "nature_seed202",
+      "prompt_id": "nature",
+      "seed": 202,
+      "file": "stats/nature_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "objects_seed101",
+      "prompt_id": "objects",
+      "seed": 101,
+      "file": "stats/objects_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "objects_seed202",
+      "prompt_id": "objects",
+      "seed": 202,
+      "file": "stats/objects_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "text_seed101",
+      "prompt_id": "text",
+      "seed": 101,
+      "file": "stats/text_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "text_seed202",
+      "prompt_id": "text",
+      "seed": 202,
+      "file": "stats/text_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "texture_seed101",
+      "prompt_id": "texture",
+      "seed": 101,
+      "file": "stats/texture_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "texture_seed202",
+      "prompt_id": "texture",
+      "seed": 202,
+      "file": "stats/texture_seed202.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "glass_seed101",
+      "prompt_id": "glass",
+      "seed": 101,
+      "file": "stats/glass_seed101.pt",
+      "reconstructed": true
+    },
+    {
+      "case": "glass_seed202",
+      "prompt_id": "glass",
+      "seed": 202,
+      "file": "stats/glass_seed202.pt",
+      "reconstructed": true
+    }
+  ],
+  "evaluation": [
+    {
+      "case": "portrait_seed101",
+      "prompt_id": "portrait",
+      "seed": 101,
+      "file": "evaluation/portrait_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "portrait_seed202",
+      "prompt_id": "portrait",
+      "seed": 202,
+      "file": "evaluation/portrait_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "people_seed101",
+      "prompt_id": "people",
+      "seed": 101,
+      "file": "evaluation/people_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "people_seed202",
+      "prompt_id": "people",
+      "seed": 202,
+      "file": "evaluation/people_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "animal_seed101",
+      "prompt_id": "animal",
+      "seed": 101,
+      "file": "evaluation/animal_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "animal_seed202",
+      "prompt_id": "animal",
+      "seed": 202,
+      "file": "evaluation/animal_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "interior_seed101",
+      "prompt_id": "interior",
+      "seed": 101,
+      "file": "evaluation/interior_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "interior_seed202",
+      "prompt_id": "interior",
+      "seed": 202,
+      "file": "evaluation/interior_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "architecture_seed101",
+      "prompt_id": "architecture",
+      "seed": 101,
+      "file": "evaluation/architecture_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "architecture_seed202",
+      "prompt_id": "architecture",
+      "seed": 202,
+      "file": "evaluation/architecture_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "nature_seed101",
+      "prompt_id": "nature",
+      "seed": 101,
+      "file": "evaluation/nature_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "nature_seed202",
+      "prompt_id": "nature",
+      "seed": 202,
+      "file": "evaluation/nature_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "objects_seed101",
+      "prompt_id": "objects",
+      "seed": 101,
+      "file": "evaluation/objects_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "objects_seed202",
+      "prompt_id": "objects",
+      "seed": 202,
+      "file": "evaluation/objects_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "text_seed101",
+      "prompt_id": "text",
+      "seed": 101,
+      "file": "evaluation/text_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "text_seed202",
+      "prompt_id": "text",
+      "seed": 202,
+      "file": "evaluation/text_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "texture_seed101",
+      "prompt_id": "texture",
+      "seed": 101,
+      "file": "evaluation/texture_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "texture_seed202",
+      "prompt_id": "texture",
+      "seed": 202,
+      "file": "evaluation/texture_seed202.json",
+      "reconstructed": true
+    },
+    {
+      "case": "glass_seed101",
+      "prompt_id": "glass",
+      "seed": 101,
+      "file": "evaluation/glass_seed101.json",
+      "reconstructed": true
+    },
+    {
+      "case": "glass_seed202",
+      "prompt_id": "glass",
+      "seed": 202,
+      "file": "evaluation/glass_seed202.json",
+      "reconstructed": true
+    }
+  ]
+}
