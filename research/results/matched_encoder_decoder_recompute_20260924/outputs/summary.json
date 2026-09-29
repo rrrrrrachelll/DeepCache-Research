@@ -1,0 +1,228 @@
+{
+  "integrity": {
+    "trace_files": 20,
+    "diffusion_steps": 400,
+    "probe_rows": 200,
+    "frontier_probes": 200,
+    "full_unet_max_guided_noise_error": 0.0
+  },
+  "protocol": {
+    "probe_steps": [
+      4,
+      9
+    ],
+    "frontiers": [
+      "decoder_only",
+      "down3_pair",
+      "down2_pair",
+      "down1_pair",
+      "full_unet"
+    ],
+    "decision_threshold": {
+      "minimum_mean_recovery_fraction": 0.2,
+      "minimum_positive_prompts": 7,
+      "both_steps_must_be_nonnegative": true
+    }
+  },
+  "overall": {
+    "decoder_only": {
+      "guided_noise_error": 0.11067438405007124,
+      "recovery_fraction": -0.032272852073378384,
+      "milliseconds": 1721.466064453125,
+      "incremental_milliseconds": 1339.8544807434082,
+      "recomputed_wrapped_modules": 29,
+      "positive_probe_rows": 14,
+      "positive_prompts": 1
+    },
+    "down3_pair": {
+      "guided_noise_error": 0.11075173998251557,
+      "recovery_fraction": -0.03236073011546185,
+      "milliseconds": 1743.495751953125,
+      "incremental_milliseconds": 1361.884168243408,
+      "recomputed_wrapped_modules": 32,
+      "positive_probe_rows": 15,
+      "positive_prompts": 1
+    },
+    "down2_pair": {
+      "guided_noise_error": 0.10868267612531782,
+      "recovery_fraction": -0.01976822779154758,
+      "milliseconds": 1822.0233795166016,
+      "incremental_milliseconds": 1440.4117958068848,
+      "recomputed_wrapped_modules": 38,
+      "positive_probe_rows": 15,
+      "positive_prompts": 3
+    },
+    "down1_pair": {
+      "guided_noise_error": 0.11002669641748071,
+      "recovery_fraction": -0.051838122397933485,
+      "milliseconds": 1961.0678009033204,
+      "incremental_milliseconds": 1579.4562171936036,
+      "recomputed_wrapped_modules": 44,
+      "positive_probe_rows": 16,
+      "positive_prompts": 1
+    },
+    "full_unet": {
+      "guided_noise_error": 0.0,
+      "recovery_fraction": 1.0,
+      "milliseconds": 2793.5360778808595,
+      "incremental_milliseconds": 2411.9244941711427,
+      "recomputed_wrapped_modules": 50,
+      "positive_probe_rows": 40,
+      "positive_prompts": 10
+    }
+  },
+  "by_step": {
+    "decoder_only": {
+      "4": {
+        "baseline_guided_noise_error": 0.09171994682401419,
+        "guided_noise_error": 0.09983075149357319,
+        "recovery_fraction": -0.07546422595445412,
+        "milliseconds": 1604.4186950683593,
+        "incremental_milliseconds": 1235.4210693359375,
+        "positive_rows": 2
+      },
+      "9": {
+        "baseline_guided_noise_error": 0.12229117825627327,
+        "guided_noise_error": 0.12151801660656929,
+        "recovery_fraction": 0.010918521807697352,
+        "milliseconds": 1838.5134338378907,
+        "incremental_milliseconds": 1444.2878921508789,
+        "positive_rows": 12
+      }
+    },
+    "down3_pair": {
+      "4": {
+        "baseline_guided_noise_error": 0.09171994682401419,
+        "guided_noise_error": 0.10002015065401793,
+        "recovery_fraction": -0.07585478711209317,
+        "milliseconds": 1625.6546630859375,
+        "incremental_milliseconds": 1256.6570373535155,
+        "positive_rows": 2
+      },
+      "9": {
+        "baseline_guided_noise_error": 0.12229117825627327,
+        "guided_noise_error": 0.12148332931101322,
+        "recovery_fraction": 0.011133326881169473,
+        "milliseconds": 1861.3368408203125,
+        "incremental_milliseconds": 1467.1112991333007,
+        "positive_rows": 13
+      }
+    },
+    "down2_pair": {
+      "4": {
+        "baseline_guided_noise_error": 0.09171994682401419,
+        "guided_noise_error": 0.09740436766296626,
+        "recovery_fraction": -0.06000399614684054,
+        "milliseconds": 1704.1085693359375,
+        "incremental_milliseconds": 1335.1109436035156,
+        "positive_rows": 3
+      },
+      "9": {
+        "baseline_guided_noise_error": 0.12229117825627327,
+        "guided_noise_error": 0.11996098458766938,
+        "recovery_fraction": 0.020467540563745373,
+        "milliseconds": 1939.9381896972657,
+        "incremental_milliseconds": 1545.7126480102538,
+        "positive_rows": 12
+      }
+    },
+    "down1_pair": {
+      "4": {
+        "baseline_guided_noise_error": 0.09171994682401419,
+        "guided_noise_error": 0.10003949590027332,
+        "recovery_fraction": -0.09516600681821219,
+        "milliseconds": 1845.1661376953125,
+        "incremental_milliseconds": 1476.1685119628905,
+        "positive_rows": 4
+      },
+      "9": {
+        "baseline_guided_noise_error": 0.12229117825627327,
+        "guided_noise_error": 0.12001389693468809,
+        "recovery_fraction": -0.008510237977654784,
+        "milliseconds": 2076.9694641113283,
+        "incremental_milliseconds": 1682.7439224243165,
+        "positive_rows": 12
+      }
+    },
+    "full_unet": {
+      "4": {
+        "baseline_guided_noise_error": 0.09171994682401419,
+        "guided_noise_error": 0.0,
+        "recovery_fraction": 1.0,
+        "milliseconds": 2651.899279785156,
+        "incremental_milliseconds": 2282.9016540527346,
+        "positive_rows": 20
+      },
+      "9": {
+        "baseline_guided_noise_error": 0.12229117825627327,
+        "guided_noise_error": 0.0,
+        "recovery_fraction": 1.0,
+        "milliseconds": 2935.1728759765624,
+        "incremental_milliseconds": 2540.947334289551,
+        "positive_rows": 20
+      }
+    }
+  },
+  "by_prompt": {
+    "decoder_only": {
+      "animal": -0.03934538357298566,
+      "architecture": -0.012599385365224026,
+      "glass": -0.04495407655600183,
+      "interior": -0.05109983216119126,
+      "nature": 0.08112092227999351,
+      "objects": -0.0589738308739542,
+      "people": -0.030519780530576437,
+      "portrait": -0.10950740910874479,
+      "text": -0.03638710193216617,
+      "texture": -0.02046264291293299
+    },
+    "down3_pair": {
+      "animal": -0.04428920149217001,
+      "architecture": -0.014684077240220712,
+      "glass": -0.049267229240676585,
+      "interior": -0.05158769798712501,
+      "nature": 0.08626156046606615,
+      "objects": -0.06341726655906371,
+      "people": -0.028712688805945866,
+      "portrait": -0.10527635458614909,
+      "text": -0.033792212114724,
+      "texture": -0.018842133594609692
+    },
+    "down2_pair": {
+      "animal": -0.02202033346762268,
+      "architecture": -0.00689385626289747,
+      "glass": -0.05242538463391731,
+      "interior": 0.010891653153020963,
+      "nature": 0.06351477160453843,
+      "objects": 0.0030621117031363965,
+      "people": -0.011715350779237115,
+      "portrait": -0.1003064444508843,
+      "text": -0.029824102994166362,
+      "texture": -0.051965341787446356
+    },
+    "down1_pair": {
+      "animal": 0.028284407506673246,
+      "architecture": -0.010264269683665688,
+      "glass": -0.05730158595076054,
+      "interior": -0.02077581750019944,
+      "nature": -0.013253071053698426,
+      "objects": -0.03414782849152628,
+      "people": -0.012535859017743864,
+      "portrait": -0.3046953676591129,
+      "text": -0.06507867830015819,
+      "texture": -0.028613153829142708
+    },
+    "full_unet": {
+      "animal": 1.0,
+      "architecture": 1.0,
+      "glass": 1.0,
+      "interior": 1.0,
+      "nature": 1.0,
+      "objects": 1.0,
+      "people": 1.0,
+      "portrait": 1.0,
+      "text": 1.0,
+      "texture": 1.0
+    }
+  }
+}
