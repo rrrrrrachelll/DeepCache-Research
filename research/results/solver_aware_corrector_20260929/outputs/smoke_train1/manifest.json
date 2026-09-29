@@ -1,0 +1,48 @@
+{
+  "experiment": "SACC round-0 on-policy pair collection",
+  "split": "train",
+  "limit": 1,
+  "cases": 1,
+  "model": "runwayml/stable-diffusion-v1-5",
+  "model_path": "/home/UserData/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "steps": 20,
+  "guidance_scale": 7.5,
+  "height": 512,
+  "width": 512,
+  "refresh_steps": [
+    0,
+    2,
+    5,
+    7,
+    10,
+    13,
+    16,
+    19
+  ],
+  "cache_branch_id": 0,
+  "trajectory": "cached output advances scheduler; full output is same-latent shadow teacher",
+  "prompt_hash": "e889bac98b1ca345f535d8e347712f453106169384264b5b07b4f3e6df55a2b0",
+  "seeds": [
+    1701
+  ],
+  "held_out_used": false,
+  "old_analysis_prompts_used": false,
+  "gpu": "Tesla M60",
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0"
+  },
+  "git_commit": "ecfd538ff460ae31fc235ec3378970e20c2815fe",
+  "source_hashes": {
+    "collect_round0.py": "a5ebfec13698bb98505e63009690b27cb67b2a92c3bbdc1eda8a3e1602eda428",
+    "sacc.py": "b237561c583575cd8dcf81e8630c6b65181bf4e19e9d3456eb5a268f31228d92",
+    "prompt_set.py": "b987a7e2e651a933edfc1f35a1f8c210652510da10a4e57b67e306452d69cc8e",
+    "PROTOCOL.md": "719f358d72fd93f5c1109f74a0b1fb1a929a170e3c4afa04283ad09d9b27909e"
+  },
+  "completed": [
+    "portrait_00_seed1701"
+  ]
+}
