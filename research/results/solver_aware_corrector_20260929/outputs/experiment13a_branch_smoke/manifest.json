@@ -1,0 +1,65 @@
+{
+  "experiment": "Experiment 13A branch legality smoke",
+  "model": "runwayml/stable-diffusion-v1-5",
+  "model_path": "/home/UserData/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "steps": 20,
+  "guidance_scale": 7.5,
+  "refresh_steps": [
+    0,
+    2,
+    5,
+    7,
+    10,
+    13,
+    16,
+    19
+  ],
+  "branches": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "seed": 1701,
+  "prompt_id": "portrait_00",
+  "prompt": "A high quality image of an elderly violin maker in a softly lit workshop, natural skin texture and expressive eyes.",
+  "prompt_hash": "e889bac98b1ca345f535d8e347712f453106169384264b5b07b4f3e6df55a2b0",
+  "trajectory": "cached output advances scheduler; full output is same-latent shadow",
+  "timing": "sum of refresh full calls and reuse cached calls; shadow excluded",
+  "gpu": "Tesla M60",
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0"
+  },
+  "git_commit": "4d88a52231d3349f0db8342473105cca080abf6f",
+  "source_hashes": {
+    "branch_frontier.py": "09c2c0947e426fdb792d5984acf2fb02a2e3fc57107ae7ea48c1631661a7fda5",
+    "sacc.py": "b237561c583575cd8dcf81e8630c6b65181bf4e19e9d3456eb5a268f31228d92",
+    "prompt_set.py": "b987a7e2e651a933edfc1f35a1f8c210652510da10a4e57b67e306452d69cc8e"
+  },
+  "completed": [
+    "branch_00",
+    "branch_01",
+    "branch_02",
+    "branch_03",
+    "branch_04",
+    "branch_05",
+    "branch_06",
+    "branch_07",
+    "branch_08",
+    "branch_09",
+    "branch_10",
+    "branch_11"
+  ]
+}
