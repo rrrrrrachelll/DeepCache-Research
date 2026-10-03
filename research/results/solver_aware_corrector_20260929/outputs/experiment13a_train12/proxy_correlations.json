@@ -1,0 +1,27 @@
+{
+  "ssim": {
+    "spearman_rho_with_noise_error": -0.23789941650458468,
+    "pvalue": 0.06719421491836267,
+    "cases": 60
+  },
+  "psnr_db": {
+    "spearman_rho_with_noise_error": 0.05462628507918868,
+    "pvalue": 0.6784771310521169,
+    "cases": 60
+  },
+  "lpips": {
+    "spearman_rho_with_noise_error": 0.3102528480133371,
+    "pvalue": 0.015842915843670813,
+    "cases": 60
+  },
+  "dists": {
+    "spearman_rho_with_noise_error": 0.2238399555432065,
+    "pvalue": 0.08556460112662234,
+    "cases": 60
+  },
+  "mean_absolute_rgb_error": {
+    "spearman_rho_with_noise_error": 0.06524034454015006,
+    "pvalue": 0.6204256667552418,
+    "cases": 60
+  }
+}

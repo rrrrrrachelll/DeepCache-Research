@@ -1,0 +1,482 @@
+[
+  {
+    "branch_id": 1,
+    "step": 1,
+    "mean_error_reduction": 7.828627713024616e-05,
+    "median_error_reduction": 0.0010062013752758503,
+    "positive_cases": 10,
+    "top4_cases": 0,
+    "mean_incremental_ms": 731.6106821695963,
+    "error_reduction_per_second": 0.00010700537736557876
+  },
+  {
+    "branch_id": 1,
+    "step": 3,
+    "mean_error_reduction": 0.0016274666413664818,
+    "median_error_reduction": 0.0013217665255069733,
+    "positive_cases": 9,
+    "top4_cases": 0,
+    "mean_incremental_ms": 743.0017979939779,
+    "error_reduction_per_second": 0.0021903939475792127
+  },
+  {
+    "branch_id": 1,
+    "step": 4,
+    "mean_error_reduction": 0.0015032853310306866,
+    "median_error_reduction": 0.0013798847794532776,
+    "positive_cases": 7,
+    "top4_cases": 0,
+    "mean_incremental_ms": 745.6995798746744,
+    "error_reduction_per_second": 0.002015939624484347
+  },
+  {
+    "branch_id": 1,
+    "step": 6,
+    "mean_error_reduction": -0.0004476037186880906,
+    "median_error_reduction": 0.0016396678984165192,
+    "positive_cases": 7,
+    "top4_cases": 2,
+    "mean_incremental_ms": 805.4916076660156,
+    "error_reduction_per_second": -0.0005556901082868668
+  },
+  {
+    "branch_id": 1,
+    "step": 8,
+    "mean_error_reduction": 0.009979863030215105,
+    "median_error_reduction": 0.005037954077124596,
+    "positive_cases": 9,
+    "top4_cases": 4,
+    "mean_incremental_ms": 833.9796956380209,
+    "error_reduction_per_second": 0.011966553960981261
+  },
+  {
+    "branch_id": 1,
+    "step": 9,
+    "mean_error_reduction": 0.010732742336889109,
+    "median_error_reduction": 0.0014335643500089645,
+    "positive_cases": 8,
+    "top4_cases": 3,
+    "mean_incremental_ms": 847.9726969401041,
+    "error_reduction_per_second": 0.012656943290294648
+  },
+  {
+    "branch_id": 1,
+    "step": 11,
+    "mean_error_reduction": 0.007511876833935578,
+    "median_error_reduction": 0.0054962653666734695,
+    "positive_cases": 9,
+    "top4_cases": 3,
+    "mean_incremental_ms": 883.297477722168,
+    "error_reduction_per_second": 0.008504356712652542
+  },
+  {
+    "branch_id": 1,
+    "step": 12,
+    "mean_error_reduction": 0.009790941762427488,
+    "median_error_reduction": 0.00532132014632225,
+    "positive_cases": 8,
+    "top4_cases": 4,
+    "mean_incremental_ms": 888.7114283243815,
+    "error_reduction_per_second": 0.011017008952937392
+  },
+  {
+    "branch_id": 1,
+    "step": 14,
+    "mean_error_reduction": 0.014861492284884056,
+    "median_error_reduction": 0.008405957370996475,
+    "positive_cases": 10,
+    "top4_cases": 6,
+    "mean_incremental_ms": 917.115244547526,
+    "error_reduction_per_second": 0.016204607188942996
+  },
+  {
+    "branch_id": 1,
+    "step": 15,
+    "mean_error_reduction": 0.018577492485443752,
+    "median_error_reduction": 0.011778086423873901,
+    "positive_cases": 11,
+    "top4_cases": 8,
+    "mean_incremental_ms": 928.5330174763998,
+    "error_reduction_per_second": 0.020007357989201422
+  },
+  {
+    "branch_id": 1,
+    "step": 17,
+    "mean_error_reduction": 0.012473971117287874,
+    "median_error_reduction": 0.013658447191119194,
+    "positive_cases": 12,
+    "top4_cases": 6,
+    "mean_incremental_ms": 940.505360921224,
+    "error_reduction_per_second": 0.013263051584383987
+  },
+  {
+    "branch_id": 1,
+    "step": 18,
+    "mean_error_reduction": 0.025516271591186523,
+    "median_error_reduction": 0.026737812906503677,
+    "positive_cases": 12,
+    "top4_cases": 12,
+    "mean_incremental_ms": 953.2162322998047,
+    "error_reduction_per_second": 0.02676860792605677
+  },
+  {
+    "branch_id": 3,
+    "step": 1,
+    "mean_error_reduction": 2.2435560822486877e-06,
+    "median_error_reduction": 0.0020598983392119408,
+    "positive_cases": 10,
+    "top4_cases": 0,
+    "mean_incremental_ms": 1543.6969757080078,
+    "error_reduction_per_second": 1.4533656006028601e-06
+  },
+  {
+    "branch_id": 3,
+    "step": 3,
+    "mean_error_reduction": 0.005578913105030854,
+    "median_error_reduction": 0.0026078661903738976,
+    "positive_cases": 10,
+    "top4_cases": 1,
+    "mean_incremental_ms": 1576.4091262817383,
+    "error_reduction_per_second": 0.0035390007657401636
+  },
+  {
+    "branch_id": 3,
+    "step": 4,
+    "mean_error_reduction": 0.0018035965040326118,
+    "median_error_reduction": 0.00412820465862751,
+    "positive_cases": 10,
+    "top4_cases": 2,
+    "mean_incremental_ms": 1602.8508961995442,
+    "error_reduction_per_second": 0.0011252428459247504
+  },
+  {
+    "branch_id": 3,
+    "step": 6,
+    "mean_error_reduction": 0.00925084420790275,
+    "median_error_reduction": 0.005767703056335449,
+    "positive_cases": 9,
+    "top4_cases": 1,
+    "mean_incremental_ms": 1711.9819641113281,
+    "error_reduction_per_second": 0.005403587421964907
+  },
+  {
+    "branch_id": 3,
+    "step": 8,
+    "mean_error_reduction": 0.014269786033158502,
+    "median_error_reduction": 0.012444423511624336,
+    "positive_cases": 9,
+    "top4_cases": 2,
+    "mean_incremental_ms": 1803.4786478678386,
+    "error_reduction_per_second": 0.007912367606918411
+  },
+  {
+    "branch_id": 3,
+    "step": 9,
+    "mean_error_reduction": 0.014461713843047619,
+    "median_error_reduction": 0.011726099997758865,
+    "positive_cases": 9,
+    "top4_cases": 4,
+    "mean_incremental_ms": 1839.6381225585938,
+    "error_reduction_per_second": 0.007861173165369105
+  },
+  {
+    "branch_id": 3,
+    "step": 11,
+    "mean_error_reduction": 0.013910426525399089,
+    "median_error_reduction": 0.008774982299655676,
+    "positive_cases": 8,
+    "top4_cases": 3,
+    "mean_incremental_ms": 1908.763765970866,
+    "error_reduction_per_second": 0.0072876627131088405
+  },
+  {
+    "branch_id": 3,
+    "step": 12,
+    "mean_error_reduction": 0.014585821734120449,
+    "median_error_reduction": 0.013263859786093235,
+    "positive_cases": 9,
+    "top4_cases": 4,
+    "mean_incremental_ms": 1929.2627385457356,
+    "error_reduction_per_second": 0.007560308631221031
+  },
+  {
+    "branch_id": 3,
+    "step": 14,
+    "mean_error_reduction": 0.0231792569005241,
+    "median_error_reduction": 0.014354282990098,
+    "positive_cases": 11,
+    "top4_cases": 4,
+    "mean_incremental_ms": 1984.565673828125,
+    "error_reduction_per_second": 0.01167976308680806
+  },
+  {
+    "branch_id": 3,
+    "step": 15,
+    "mean_error_reduction": 0.029314362599203985,
+    "median_error_reduction": 0.022597361356019974,
+    "positive_cases": 10,
+    "top4_cases": 8,
+    "mean_incremental_ms": 2003.5229263305664,
+    "error_reduction_per_second": 0.014631408612275262
+  },
+  {
+    "branch_id": 3,
+    "step": 17,
+    "mean_error_reduction": 0.02655740858366092,
+    "median_error_reduction": 0.025906244292855263,
+    "positive_cases": 12,
+    "top4_cases": 8,
+    "mean_incremental_ms": 2052.0590006510415,
+    "error_reduction_per_second": 0.01294183479872423
+  },
+  {
+    "branch_id": 3,
+    "step": 18,
+    "mean_error_reduction": 0.052879584642748036,
+    "median_error_reduction": 0.050683677196502686,
+    "positive_cases": 12,
+    "top4_cases": 11,
+    "mean_incremental_ms": 2058.4621938069663,
+    "error_reduction_per_second": 0.02568887823242036
+  },
+  {
+    "branch_id": 8,
+    "step": 1,
+    "mean_error_reduction": 0.02362043984855215,
+    "median_error_reduction": 0.016236175317317247,
+    "positive_cases": 12,
+    "top4_cases": 1,
+    "mean_incremental_ms": 2058.180750528971,
+    "error_reduction_per_second": 0.011476368070433795
+  },
+  {
+    "branch_id": 8,
+    "step": 3,
+    "mean_error_reduction": 0.027450178827469546,
+    "median_error_reduction": 0.01991236675530672,
+    "positive_cases": 12,
+    "top4_cases": 1,
+    "mean_incremental_ms": 2117.14298248291,
+    "error_reduction_per_second": 0.012965670743350999
+  },
+  {
+    "branch_id": 8,
+    "step": 4,
+    "mean_error_reduction": 0.031855519550542034,
+    "median_error_reduction": 0.021938933059573174,
+    "positive_cases": 12,
+    "top4_cases": 3,
+    "mean_incremental_ms": 2161.972854614258,
+    "error_reduction_per_second": 0.014734467864641963
+  },
+  {
+    "branch_id": 8,
+    "step": 6,
+    "mean_error_reduction": 0.06207579607143998,
+    "median_error_reduction": 0.049745322205126286,
+    "positive_cases": 12,
+    "top4_cases": 4,
+    "mean_incremental_ms": 2282.5565795898438,
+    "error_reduction_per_second": 0.027195731587339
+  },
+  {
+    "branch_id": 8,
+    "step": 8,
+    "mean_error_reduction": 0.06679826710994045,
+    "median_error_reduction": 0.03681343048810959,
+    "positive_cases": 12,
+    "top4_cases": 3,
+    "mean_incremental_ms": 2363.4305623372397,
+    "error_reduction_per_second": 0.02826326619212473
+  },
+  {
+    "branch_id": 8,
+    "step": 9,
+    "mean_error_reduction": 0.08074123195062081,
+    "median_error_reduction": 0.04662425024434924,
+    "positive_cases": 12,
+    "top4_cases": 5,
+    "mean_incremental_ms": 2408.3639119466147,
+    "error_reduction_per_second": 0.03352534538078172
+  },
+  {
+    "branch_id": 8,
+    "step": 11,
+    "mean_error_reduction": 0.05201579529481629,
+    "median_error_reduction": 0.04033545311540365,
+    "positive_cases": 12,
+    "top4_cases": 0,
+    "mean_incremental_ms": 2464.2835413614907,
+    "error_reduction_per_second": 0.021107877572431506
+  },
+  {
+    "branch_id": 8,
+    "step": 12,
+    "mean_error_reduction": 0.07316684831554691,
+    "median_error_reduction": 0.05944514460861683,
+    "positive_cases": 12,
+    "top4_cases": 6,
+    "mean_incremental_ms": 2494.82381439209,
+    "error_reduction_per_second": 0.029327461079000233
+  },
+  {
+    "branch_id": 8,
+    "step": 14,
+    "mean_error_reduction": 0.05691645632032305,
+    "median_error_reduction": 0.04448605049401522,
+    "positive_cases": 12,
+    "top4_cases": 3,
+    "mean_incremental_ms": 2543.9668172200522,
+    "error_reduction_per_second": 0.0223731127053454
+  },
+  {
+    "branch_id": 8,
+    "step": 15,
+    "mean_error_reduction": 0.08589887300816675,
+    "median_error_reduction": 0.07411521952599287,
+    "positive_cases": 12,
+    "top4_cases": 6,
+    "mean_incremental_ms": 2571.489885965983,
+    "error_reduction_per_second": 0.033404320770213235
+  },
+  {
+    "branch_id": 8,
+    "step": 17,
+    "mean_error_reduction": 0.059379629247511424,
+    "median_error_reduction": 0.05916328448802233,
+    "positive_cases": 12,
+    "top4_cases": 4,
+    "mean_incremental_ms": 2611.944376627604,
+    "error_reduction_per_second": 0.022733879702361452
+  },
+  {
+    "branch_id": 8,
+    "step": 18,
+    "mean_error_reduction": 0.1156027801334858,
+    "median_error_reduction": 0.1193280452862382,
+    "positive_cases": 12,
+    "top4_cases": 12,
+    "mean_incremental_ms": 2625.7680002848306,
+    "error_reduction_per_second": 0.044026273502055686
+  },
+  {
+    "branch_id": 10,
+    "step": 1,
+    "mean_error_reduction": 0.024742522238132853,
+    "median_error_reduction": 0.016625272575765848,
+    "positive_cases": 12,
+    "top4_cases": 1,
+    "mean_incremental_ms": 2121.581792195638,
+    "error_reduction_per_second": 0.011662299482937523
+  },
+  {
+    "branch_id": 10,
+    "step": 3,
+    "mean_error_reduction": 0.02993365004658699,
+    "median_error_reduction": 0.022345418110489845,
+    "positive_cases": 12,
+    "top4_cases": 1,
+    "mean_incremental_ms": 2176.216855367025,
+    "error_reduction_per_second": 0.013754902216093073
+  },
+  {
+    "branch_id": 10,
+    "step": 4,
+    "mean_error_reduction": 0.03339299373328686,
+    "median_error_reduction": 0.024006668478250504,
+    "positive_cases": 12,
+    "top4_cases": 3,
+    "mean_incremental_ms": 2215.7854970296225,
+    "error_reduction_per_second": 0.015070499278044706
+  },
+  {
+    "branch_id": 10,
+    "step": 6,
+    "mean_error_reduction": 0.061733478641447924,
+    "median_error_reduction": 0.05383566301316023,
+    "positive_cases": 12,
+    "top4_cases": 5,
+    "mean_incremental_ms": 2330.1181844075522,
+    "error_reduction_per_second": 0.026493711372474468
+  },
+  {
+    "branch_id": 10,
+    "step": 8,
+    "mean_error_reduction": 0.06509421668791522,
+    "median_error_reduction": 0.03814018634147942,
+    "positive_cases": 12,
+    "top4_cases": 3,
+    "mean_incremental_ms": 2414.7616373697915,
+    "error_reduction_per_second": 0.02695678765164465
+  },
+  {
+    "branch_id": 10,
+    "step": 9,
+    "mean_error_reduction": 0.083171589144816,
+    "median_error_reduction": 0.05204408057034016,
+    "positive_cases": 12,
+    "top4_cases": 5,
+    "mean_incremental_ms": 2464.2369995117188,
+    "error_reduction_per_second": 0.0337514570072993
+  },
+  {
+    "branch_id": 10,
+    "step": 11,
+    "mean_error_reduction": 0.05229592563894888,
+    "median_error_reduction": 0.04222753690555692,
+    "positive_cases": 12,
+    "top4_cases": 0,
+    "mean_incremental_ms": 2516.3457158406577,
+    "error_reduction_per_second": 0.020782488395668604
+  },
+  {
+    "branch_id": 10,
+    "step": 12,
+    "mean_error_reduction": 0.07437146524898708,
+    "median_error_reduction": 0.06424603052437305,
+    "positive_cases": 12,
+    "top4_cases": 5,
+    "mean_incremental_ms": 2547.112103780111,
+    "error_reduction_per_second": 0.029198347861727047
+  },
+  {
+    "branch_id": 10,
+    "step": 14,
+    "mean_error_reduction": 0.057438190444372594,
+    "median_error_reduction": 0.0429054987616837,
+    "positive_cases": 12,
+    "top4_cases": 3,
+    "mean_incremental_ms": 2597.4398193359375,
+    "error_reduction_per_second": 0.022113386426430185
+  },
+  {
+    "branch_id": 10,
+    "step": 15,
+    "mean_error_reduction": 0.08520504490782817,
+    "median_error_reduction": 0.07208150252699852,
+    "positive_cases": 12,
+    "top4_cases": 6,
+    "mean_incremental_ms": 2624.6417821248374,
+    "error_reduction_per_second": 0.03246349482360542
+  },
+  {
+    "branch_id": 10,
+    "step": 17,
+    "mean_error_reduction": 0.06009009433910251,
+    "median_error_reduction": 0.06304508866742253,
+    "positive_cases": 12,
+    "top4_cases": 4,
+    "mean_incremental_ms": 2657.6024576822915,
+    "error_reduction_per_second": 0.02261064071693679
+  },
+  {
+    "branch_id": 10,
+    "step": 18,
+    "mean_error_reduction": 0.11644533198947708,
+    "median_error_reduction": 0.1207413305528462,
+    "positive_cases": 12,
+    "top4_cases": 12,
+    "mean_incremental_ms": 2678.5918935139975,
+    "error_reduction_per_second": 0.043472591801476154
+  }
+]
