@@ -1,0 +1,299 @@
+{
+  "b1_s15": {
+    "cases": 12,
+    "mean_seconds": 27.51372576407933,
+    "mean_speedup_vs_dpm20": 2.093329184733788,
+    "mean_ssim": 0.6287166327238083,
+    "mean_ssim_gain_vs_branch0": -0.0004168674349784851,
+    "ssim_gain_bootstrap_95ci": [
+      -0.0011859407648444175,
+      0.00027358134587605795
+    ],
+    "positive_ssim_cases": 4,
+    "mean_lpips": 0.3368455444773038,
+    "lpips_relative_reduction_vs_branch0": -0.001472881814037854,
+    "mean_dists": 0.17449762423833212,
+    "dists_relative_reduction_vs_branch0": -0.001570278971624219,
+    "mean_ssim_gain_vs_b8_s01_control": null,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": true
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b1_s18": {
+    "cases": 12,
+    "mean_seconds": 27.508700363512617,
+    "mean_speedup_vs_dpm20": 2.093700906284103,
+    "mean_ssim": 0.631041352947553,
+    "mean_ssim_gain_vs_branch0": 0.001907852788766225,
+    "ssim_gain_bootstrap_95ci": [
+      0.0012533651664853097,
+      0.0026203251754244165
+    ],
+    "positive_ssim_cases": 12,
+    "mean_lpips": 0.33601495375235874,
+    "lpips_relative_reduction_vs_branch0": 0.0009965410432824244,
+    "mean_dists": 0.17437484363714853,
+    "dists_relative_reduction_vs_branch0": -0.0008655507467185549,
+    "mean_ssim_gain_vs_b8_s01_control": null,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": true,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": true
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b8_s01": {
+    "cases": 12,
+    "mean_seconds": 28.71217358391732,
+    "mean_speedup_vs_dpm20": 2.0061023326745393,
+    "mean_ssim": 0.6510252952575684,
+    "mean_ssim_gain_vs_branch0": 0.021891795098781586,
+    "ssim_gain_bootstrap_95ci": [
+      -0.022295494750142097,
+      0.06783486871669689
+    ],
+    "positive_ssim_cases": 8,
+    "mean_lpips": 0.2987612461050351,
+    "lpips_relative_reduction_vs_branch0": 0.11175525098470673,
+    "mean_dists": 0.1602331797281901,
+    "dists_relative_reduction_vs_branch0": 0.08030386533125149,
+    "mean_ssim_gain_vs_b8_s01_control": 0.0,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": true,
+      "lpips_reduction_at_least_3_percent": true,
+      "dists_reduction_at_least_2_percent": true,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": true,
+    "passes_all_candidate_gates": false
+  },
+  "b8_s09": {
+    "cases": 12,
+    "mean_seconds": 28.952341930087034,
+    "mean_speedup_vs_dpm20": 1.9894222096090102,
+    "mean_ssim": 0.6345648045341173,
+    "mean_ssim_gain_vs_branch0": 0.005431304375330607,
+    "ssim_gain_bootstrap_95ci": [
+      -0.00026253828157981235,
+      0.01188816769669453
+    ],
+    "positive_ssim_cases": 8,
+    "mean_lpips": 0.32765017698208493,
+    "lpips_relative_reduction_vs_branch0": 0.02586579413331908,
+    "mean_dists": 0.16941613952318826,
+    "dists_relative_reduction_vs_branch0": 0.027596101292587143,
+    "mean_ssim_gain_vs_b8_s01_control": -0.016460490723450977,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": true,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": true,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b8_s12": {
+    "cases": 12,
+    "mean_seconds": 29.001302241755184,
+    "mean_speedup_vs_dpm20": 1.9860550155266494,
+    "mean_ssim": 0.6306826745470365,
+    "mean_ssim_gain_vs_branch0": 0.001549174388249715,
+    "ssim_gain_bootstrap_95ci": [
+      -0.002571423289676507,
+      0.007728239397207891
+    ],
+    "positive_ssim_cases": 3,
+    "mean_lpips": 0.33399194727341336,
+    "lpips_relative_reduction_vs_branch0": 0.007011125952047462,
+    "mean_dists": 0.17348656058311462,
+    "dists_relative_reduction_vs_branch0": 0.0042329593912726424,
+    "mean_ssim_gain_vs_b8_s01_control": -0.02034262071053187,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b8_s15": {
+    "cases": 12,
+    "mean_seconds": 29.042992912087357,
+    "mean_speedup_vs_dpm20": 1.9831522546114182,
+    "mean_ssim": 0.6305671210090319,
+    "mean_ssim_gain_vs_branch0": 0.001433620850245158,
+    "ssim_gain_bootstrap_95ci": [
+      -0.0005808146670460701,
+      0.00424983687698841
+    ],
+    "positive_ssim_cases": 4,
+    "mean_lpips": 0.3341188157598178,
+    "lpips_relative_reduction_vs_branch0": 0.006633934236811996,
+    "mean_dists": 0.1734450807174047,
+    "dists_relative_reduction_vs_branch0": 0.004471042865773521,
+    "mean_ssim_gain_vs_b8_s01_control": -0.020458174248536427,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b8_s18": {
+    "cases": 12,
+    "mean_seconds": 29.10361246242731,
+    "mean_speedup_vs_dpm20": 1.9790218453000936,
+    "mean_ssim": 0.6339766631523768,
+    "mean_ssim_gain_vs_branch0": 0.004843162993590037,
+    "ssim_gain_bootstrap_95ci": [
+      0.0027389776582519214,
+      0.007336118196447689
+    ],
+    "positive_ssim_cases": 12,
+    "mean_lpips": 0.335757065564394,
+    "lpips_relative_reduction_vs_branch0": 0.0017632664194118023,
+    "mean_dists": 0.1742904931306839,
+    "dists_relative_reduction_vs_branch0": -0.00038140111625826177,
+    "mean_ssim_gain_vs_b8_s01_control": -0.017048632105191548,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": true,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b10_s09": {
+    "cases": 12,
+    "mean_seconds": 28.95423359038735,
+    "mean_speedup_vs_dpm20": 1.989175835073072,
+    "mean_ssim": 0.6336052467425665,
+    "mean_ssim_gain_vs_branch0": 0.004471746583779653,
+    "ssim_gain_bootstrap_95ci": [
+      -0.00076009314507246,
+      0.01026881964256366
+    ],
+    "positive_ssim_cases": 7,
+    "mean_lpips": 0.32949891065557796,
+    "lpips_relative_reduction_vs_branch0": 0.020369338353941824,
+    "mean_dists": 0.17014879981676737,
+    "dists_relative_reduction_vs_branch0": 0.023390824700229643,
+    "mean_ssim_gain_vs_b8_s01_control": -0.017420048515001934,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": true,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b10_s12": {
+    "cases": 12,
+    "mean_seconds": 29.019597381576506,
+    "mean_speedup_vs_dpm20": 1.9847318189351206,
+    "mean_ssim": 0.6307294915119807,
+    "mean_ssim_gain_vs_branch0": 0.001595991353193919,
+    "ssim_gain_bootstrap_95ci": [
+      -0.002500807742277781,
+      0.0077029084165891005
+    ],
+    "positive_ssim_cases": 3,
+    "mean_lpips": 0.33414678275585175,
+    "lpips_relative_reduction_vs_branch0": 0.0065507857773086965,
+    "mean_dists": 0.17348084847132364,
+    "dists_relative_reduction_vs_branch0": 0.0042657454044059216,
+    "mean_ssim_gain_vs_b8_s01_control": -0.020295803745587666,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b10_s15": {
+    "cases": 12,
+    "mean_seconds": 29.09816256292591,
+    "mean_speedup_vs_dpm20": 1.9793798254431403,
+    "mean_ssim": 0.6303789988160133,
+    "mean_ssim_gain_vs_branch0": 0.0012454986572265625,
+    "ssim_gain_bootstrap_95ci": [
+      -0.0008220491309960683,
+      0.004127669706940651
+    ],
+    "positive_ssim_cases": 4,
+    "mean_lpips": 0.33446283514300984,
+    "lpips_relative_reduction_vs_branch0": 0.005611132870625435,
+    "mean_dists": 0.17351141075293222,
+    "dists_relative_reduction_vs_branch0": 0.004090325979354562,
+    "mean_ssim_gain_vs_b8_s01_control": -0.020646296441555023,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": false,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  },
+  "b10_s18": {
+    "cases": 12,
+    "mean_seconds": 29.173802536417497,
+    "mean_speedup_vs_dpm20": 1.974271072885604,
+    "mean_ssim": 0.6340258965889612,
+    "mean_ssim_gain_vs_branch0": 0.00489239643017451,
+    "ssim_gain_bootstrap_95ci": [
+      0.002796112559735775,
+      0.0074018271019061395
+    ],
+    "positive_ssim_cases": 12,
+    "mean_lpips": 0.3356337621808052,
+    "lpips_relative_reduction_vs_branch0": 0.002129858755052473,
+    "mean_dists": 0.17414707938830057,
+    "dists_relative_reduction_vs_branch0": 0.000441755890000132,
+    "mean_ssim_gain_vs_b8_s01_control": -0.016999398668607075,
+    "gates": {
+      "ssim_positive_at_least_9_of_12": true,
+      "mean_ssim_gain_at_least_0_005": false,
+      "lpips_reduction_at_least_3_percent": false,
+      "dists_reduction_at_least_2_percent": false,
+      "speedup_at_least_1_50": true,
+      "beats_early_control_when_applicable": false
+    },
+    "is_early_control": false,
+    "passes_all_candidate_gates": false
+  }
+}

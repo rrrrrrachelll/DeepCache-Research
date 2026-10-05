@@ -1,0 +1,8 @@
+{
+  "prompt_id": "portrait_01",
+  "branch0_exact_match": true,
+  "max_abs_difference": 0.0,
+  "calls": 20,
+  "seconds": 26.1716230440652,
+  "peak_allocated_mib": 2624.40771484375
+}
