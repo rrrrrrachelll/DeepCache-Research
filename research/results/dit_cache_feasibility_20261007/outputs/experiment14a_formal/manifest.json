@@ -1,0 +1,27 @@
+{
+  "experiment": "Experiment 14A DiT adjacent-step redundancy profile",
+  "model": "facebook/DiT-XL-2-256",
+  "model_path": "/root/projects/DeepCache/.cache/dit-xl-2-256",
+  "class_ids": [
+    207,
+    360,
+    417,
+    980
+  ],
+  "seed": 1701,
+  "steps": 20,
+  "guidance_scale": 4.0,
+  "dtype": "float16",
+  "resolution": 256,
+  "gpu": "Tesla M60",
+  "block_count": 28,
+  "versions": {
+    "torch": "2.3.1+cu118",
+    "diffusers": "0.24.0",
+    "transformers": "4.36.2",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0"
+  },
+  "git_commit": "7804531439f3372fdd51aae8a3b681deb76baf00",
+  "source_sha256": "9d2124a75edd6a753c49ae4e94575c851f299b9ba134229403feaa1f1eeabffd"
+}

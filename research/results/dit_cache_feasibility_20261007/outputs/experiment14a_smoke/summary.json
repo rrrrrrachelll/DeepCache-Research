@@ -1,0 +1,12 @@
+[
+  {
+    "class_id": 207,
+    "label": "golden retriever",
+    "seed": 1701,
+    "baseline_seconds": 7.096313727088273,
+    "peak_allocated_mib": 1854.72412109375,
+    "profile_records": 2800,
+    "read_only_exact_match": true,
+    "max_abs_pixel_difference": 0.0
+  }
+]

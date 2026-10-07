@@ -1,0 +1,42 @@
+[
+  {
+    "class_id": 207,
+    "label": "golden retriever",
+    "seed": 1701,
+    "baseline_seconds": 7.104353245929815,
+    "peak_allocated_mib": 1854.72412109375,
+    "profile_records": 2800,
+    "read_only_exact_match": true,
+    "max_abs_pixel_difference": 0.0
+  },
+  {
+    "class_id": 360,
+    "label": "otter",
+    "seed": 1701,
+    "baseline_seconds": 7.107537774951197,
+    "peak_allocated_mib": 1854.72412109375,
+    "profile_records": 2800,
+    "read_only_exact_match": true,
+    "max_abs_pixel_difference": 0.0
+  },
+  {
+    "class_id": 417,
+    "label": "balloon",
+    "seed": 1701,
+    "baseline_seconds": 7.15600053104572,
+    "peak_allocated_mib": 1854.72412109375,
+    "profile_records": 2800,
+    "read_only_exact_match": true,
+    "max_abs_pixel_difference": 0.0
+  },
+  {
+    "class_id": 980,
+    "label": "volcano",
+    "seed": 1701,
+    "baseline_seconds": 7.126351900049485,
+    "peak_allocated_mib": 1854.72412109375,
+    "profile_records": 2800,
+    "read_only_exact_match": true,
+    "max_abs_pixel_difference": 0.0
+  }
+]

@@ -1,0 +1,310 @@
+{
+  "class_ids": [
+    207,
+    360,
+    417,
+    980
+  ],
+  "class_count": 4,
+  "block_count": 28,
+  "adjacent_steps": 19,
+  "thresholds": {
+    "minimum_cosine_all_classes": 0.995,
+    "maximum_relative_l2_change_all_classes": 0.1
+  },
+  "components": {
+    "residual": {
+      "eligible_coordinates": 133,
+      "total_coordinates": 532,
+      "eligible_fraction": 0.25,
+      "longest_consecutive_steps": 19,
+      "mean_cosine": 0.9775313371494833,
+      "mean_relative_l2_change": 0.1698886921315951
+    },
+    "attention": {
+      "eligible_coordinates": 13,
+      "total_coordinates": 532,
+      "eligible_fraction": 0.02443609022556391,
+      "longest_consecutive_steps": 4,
+      "mean_cosine": 0.9683439101519665,
+      "mean_relative_l2_change": 0.22575576223706112
+    },
+    "mlp": {
+      "eligible_coordinates": 67,
+      "total_coordinates": 532,
+      "eligible_fraction": 0.12593984962406016,
+      "longest_consecutive_steps": 17,
+      "mean_cosine": 0.966068937437945,
+      "mean_relative_l2_change": 0.21064808405760704
+    }
+  },
+  "candidate_runs": [
+    {
+      "component": "residual",
+      "block": 0,
+      "start_step": 1,
+      "end_step": 19,
+      "length": 19
+    },
+    {
+      "component": "residual",
+      "block": 18,
+      "start_step": 1,
+      "end_step": 17,
+      "length": 17
+    },
+    {
+      "component": "residual",
+      "block": 1,
+      "start_step": 1,
+      "end_step": 13,
+      "length": 13
+    },
+    {
+      "component": "residual",
+      "block": 2,
+      "start_step": 1,
+      "end_step": 13,
+      "length": 13
+    },
+    {
+      "component": "residual",
+      "block": 22,
+      "start_step": 10,
+      "end_step": 18,
+      "length": 9
+    },
+    {
+      "component": "residual",
+      "block": 15,
+      "start_step": 1,
+      "end_step": 7,
+      "length": 7
+    },
+    {
+      "component": "residual",
+      "block": 22,
+      "start_step": 1,
+      "end_step": 7,
+      "length": 7
+    },
+    {
+      "component": "residual",
+      "block": 26,
+      "start_step": 1,
+      "end_step": 7,
+      "length": 7
+    },
+    {
+      "component": "residual",
+      "block": 27,
+      "start_step": 1,
+      "end_step": 7,
+      "length": 7
+    },
+    {
+      "component": "residual",
+      "block": 27,
+      "start_step": 11,
+      "end_step": 17,
+      "length": 7
+    },
+    {
+      "component": "residual",
+      "block": 12,
+      "start_step": 12,
+      "end_step": 17,
+      "length": 6
+    },
+    {
+      "component": "residual",
+      "block": 12,
+      "start_step": 1,
+      "end_step": 4,
+      "length": 4
+    },
+    {
+      "component": "residual",
+      "block": 15,
+      "start_step": 14,
+      "end_step": 17,
+      "length": 4
+    },
+    {
+      "component": "residual",
+      "block": 3,
+      "start_step": 1,
+      "end_step": 3,
+      "length": 3
+    },
+    {
+      "component": "residual",
+      "block": 21,
+      "start_step": 1,
+      "end_step": 3,
+      "length": 3
+    },
+    {
+      "component": "residual",
+      "block": 11,
+      "start_step": 1,
+      "end_step": 2,
+      "length": 2
+    },
+    {
+      "component": "residual",
+      "block": 12,
+      "start_step": 6,
+      "end_step": 6,
+      "length": 1
+    },
+    {
+      "component": "residual",
+      "block": 12,
+      "start_step": 10,
+      "end_step": 10,
+      "length": 1
+    },
+    {
+      "component": "residual",
+      "block": 15,
+      "start_step": 10,
+      "end_step": 10,
+      "length": 1
+    },
+    {
+      "component": "residual",
+      "block": 15,
+      "start_step": 12,
+      "end_step": 12,
+      "length": 1
+    },
+    {
+      "component": "residual",
+      "block": 26,
+      "start_step": 15,
+      "end_step": 15,
+      "length": 1
+    },
+    {
+      "component": "attention",
+      "block": 27,
+      "start_step": 15,
+      "end_step": 18,
+      "length": 4
+    },
+    {
+      "component": "attention",
+      "block": 22,
+      "start_step": 15,
+      "end_step": 17,
+      "length": 3
+    },
+    {
+      "component": "attention",
+      "block": 0,
+      "start_step": 1,
+      "end_step": 2,
+      "length": 2
+    },
+    {
+      "component": "attention",
+      "block": 18,
+      "start_step": 1,
+      "end_step": 2,
+      "length": 2
+    },
+    {
+      "component": "attention",
+      "block": 22,
+      "start_step": 1,
+      "end_step": 2,
+      "length": 2
+    },
+    {
+      "component": "mlp",
+      "block": 27,
+      "start_step": 1,
+      "end_step": 17,
+      "length": 17
+    },
+    {
+      "component": "mlp",
+      "block": 1,
+      "start_step": 1,
+      "end_step": 12,
+      "length": 12
+    },
+    {
+      "component": "mlp",
+      "block": 2,
+      "start_step": 1,
+      "end_step": 12,
+      "length": 12
+    },
+    {
+      "component": "mlp",
+      "block": 26,
+      "start_step": 1,
+      "end_step": 8,
+      "length": 8
+    },
+    {
+      "component": "mlp",
+      "block": 26,
+      "start_step": 10,
+      "end_step": 17,
+      "length": 8
+    },
+    {
+      "component": "mlp",
+      "block": 21,
+      "start_step": 1,
+      "end_step": 3,
+      "length": 3
+    },
+    {
+      "component": "mlp",
+      "block": 3,
+      "start_step": 1,
+      "end_step": 2,
+      "length": 2
+    },
+    {
+      "component": "mlp",
+      "block": 0,
+      "start_step": 1,
+      "end_step": 1,
+      "length": 1
+    },
+    {
+      "component": "mlp",
+      "block": 17,
+      "start_step": 1,
+      "end_step": 1,
+      "length": 1
+    },
+    {
+      "component": "mlp",
+      "block": 19,
+      "start_step": 1,
+      "end_step": 1,
+      "length": 1
+    },
+    {
+      "component": "mlp",
+      "block": 20,
+      "start_step": 1,
+      "end_step": 1,
+      "length": 1
+    },
+    {
+      "component": "mlp",
+      "block": 22,
+      "start_step": 1,
+      "end_step": 1,
+      "length": 1
+    }
+  ],
+  "has_robust_candidate": true
+}
